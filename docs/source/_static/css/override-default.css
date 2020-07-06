@@ -1,0 +1,52 @@
+/*
+  Custom overrides of default 'readthedocs' sphinx styles
+*/
+
+/* Hide "On GitHub" section from versions menu */
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
+    display: none;
+}
+
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
+    display: none;
+}
+
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(2) {
+    display: none;
+}
+
+div.rst-versions > div.rst-current-version > span.fa.fa-book {
+  display: none;
+}
+
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+      overflow-wrap: break-word;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+      overflow-wrap: break-word;
+   }
+}
+
+td {
+  vertical-align: top;
+}
+
+td p {
+  font-size: 14px;
+  vertical-align: top;
+}
+
+td.wrappable,
+table.data_table td.wrappable {
+    white-space: normal;
+    overflow-wrap: break-word;
+}                
+
