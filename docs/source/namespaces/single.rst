@@ -6,9 +6,9 @@
 Single Namespace
 ****************
 
-The most simple Bcome setup is where are your servers are loaded into a single namespace.
+The most simple Bcome setup is where your servers are loaded into a single namespace.
 
-Let's see how this may work for some servers retrieved from Google Cloud Platform:
+Let's see how this works for an inventory retrieved from Google Cloud Platform:
 
 Network configuration
 =====================
@@ -30,4 +30,26 @@ Network configuration
       - https://www.googleapis.com/auth/compute.readonly
       - https://www.googleapis.com/auth/cloud-platform
       filters: status:running
+
+Tree Hierarchy
+==============
+
+.. code-block:: bash
+
+      ▐▆   Namespace tree wbz
+      │
+      ├───╸ server bastion
+      ├───╸ server elastic_master_node_0ls7
+      ├───╸ server elastic_master_node_9s29
+      ├───╸ server elastic_master_node_mlxk
+      ├───╸ server puppet
+      └───╸ server wbzsite_app_sq6v
+
+
+Ascii Cast
+==========
+
+
+
+
 
