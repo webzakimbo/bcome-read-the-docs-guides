@@ -3,6 +3,14 @@
 
 .. toctree::
     :maxdepth: 1
+    :caption: Namespacing
+    :hidden:
+
+    namespaces/single
+    namespaces/multi
+
+.. toctree::
+    :maxdepth: 1
     :caption: Resources
 
     About <https://bcome.com>
