@@ -68,8 +68,7 @@ Ascii Cast
 
 .. raw:: html
 
-   <a href="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ"><img src="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ.png" width="836"/></a>   
-
+   <a href="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ" target="_blank"><img src="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ.svg" /></a>
 .. note:: 
 
    To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
