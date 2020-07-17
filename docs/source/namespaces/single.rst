@@ -68,7 +68,7 @@ Ascii Cast
 
 .. raw:: html
 
-   <script src="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ.js" id="asciicast-wSkGafvHxF6cDJgpAgN2x70cZ" async></script>
+   <a href="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ"><img src="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ.png" width="836"/></a>   
 
 .. note:: 
 
