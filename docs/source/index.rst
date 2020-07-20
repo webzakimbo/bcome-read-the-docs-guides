@@ -10,6 +10,7 @@
     namespaces/multi
     namespaces/multi-network-gcp
     namespaces/multi-network-aws
+    namespaces/overriding-identifiers
 
 .. toctree::
     :maxdepth: 1
