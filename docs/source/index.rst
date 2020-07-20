@@ -3,7 +3,15 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: Namespacing
+    :caption: Drivers
+    :hidden:
+
+    drivers/ec2
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Network Types
     :hidden:
 
     namespaces/single
