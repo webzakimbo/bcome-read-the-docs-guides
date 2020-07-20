@@ -14,6 +14,10 @@ In this example, I've an elastic search cluster, an application server, and some
 
 I've created my namespaces in this instance using sub-selects.
 
+.. note::
+
+   The servers retrieved in this example are tagged in GCP with various labels. These labels are the subject of the filters you'll see in the networks.yml config below.
+
 
 Project structure
 =================
@@ -92,7 +96,7 @@ networks.yml file
      description: Operations namespace
      filters:
        by_label:
-         group: operations
+         group: operations 
 
    wbz:wbzsite:
      type: inventory-subselect
@@ -115,8 +119,8 @@ networks.yml file
      override_identifier: "elastic_data_(node_.+)"
      filters:
        by_label:
-         :division: elastic-search
-         :function: elastic-data-node
+         division: elastic-search
+         function: elastic-data-node
 
    wbz:elastic:masters:
      type: inventory-subselect
@@ -124,8 +128,8 @@ networks.yml file
      subselect_from: all_machines
      filters:
        by_label:
-         :division: elastic-search
-         :function: elastic-master-node
+         division: elastic-search
+         function: elastic-master-node
      override_identifier: "elastic_master_(node_.+)"
 
 
