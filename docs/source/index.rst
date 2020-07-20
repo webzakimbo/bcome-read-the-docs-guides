@@ -8,6 +8,7 @@
 
     namespaces/single
     namespaces/multi
+    namespaces/multi-network
 
 .. toctree::
     :maxdepth: 1

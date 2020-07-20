@@ -2,9 +2,9 @@
    :description lang=en: Setting up a multi-namespace network
 
 
-*********************************
-Multi-Namespace using Sub-selects
-*********************************
+***************
+Multi-Namespace
+***************
 
 It is intended that you to segment your infrastructure into namespaces.   
 
@@ -12,7 +12,7 @@ Think of a namespace as a particular "view" on a part, or parts of your infrastr
 
 In this example, I've an elastic search cluster, an application server, and some management servers set up in GCP.  
 
-I've created my namespaces in this instance using sub-selects.
+I've created my namespaces in this instance using ``sub-selected inventories``.  Please refer to the docs - https://docs.bcome.com - for more information on the namespace types available.
 
 .. note::
 
