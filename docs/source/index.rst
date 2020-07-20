@@ -9,6 +9,7 @@
     drivers/ec2
     drivers/gcp-service-account
     drivers/static-on-premise
+    drivers/static-cloud
 
 .. toctree::
     :maxdepth: 1
