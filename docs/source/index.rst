@@ -11,6 +11,8 @@
     drivers/static-on-premise
     drivers/static-cloud
     drivers/hybrid-static-cloud
+    drivers/multi-cloud
+
 
 .. toctree::
     :maxdepth: 1

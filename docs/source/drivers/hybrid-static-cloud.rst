@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en: Configuring a a static cloud
+   :description lang=en: Configuring a hybrid static cloud
 
 ************
 Hybrid Cloud
@@ -148,13 +148,3 @@ Ascii Cast
 TODO ascii_casts/hybrid-cloud
 
 
-
-
-
-
-
-
-Ascii Cast
-==========
-
-TODO: ascii_casts/static-cloud

@@ -1,12 +1,25 @@
 .. meta::
-   :description lang=en: Configuring Bcome's EC2 driver
+   :description lang=en: Configuring Bcome's GCP driver for Service Account authorisation
 
 
 *******************
 GCP Service Account
 *******************
 
-This guide demonstrates a basic GCP driver setup: a single inventory namespace if populated with servers having been authorised via a GCP service account.
+This guide demonstrates a basic GCP driver setup: a single inventory namespace is populated with servers having been authorised via a GCP service account.
+
+
+Directory structure
+===================
+
+.. code-block:: bash
+
+   .
+   ├── .gauth
+   │   └── service-account.json
+   └── bcome
+       └── networks.yml
+
 
 Tree Hierarchy
 ==============

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en: Configuring a a static cloud
+   :description lang=en: Configuring a static cloud
 
 ************
 Static Cloud
