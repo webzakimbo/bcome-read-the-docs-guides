@@ -7,7 +7,7 @@ Multi-hybrid-cloud
 
 Bcome allows for interacting with servers from multiple clouds, and on-premise infrastructure at the same time.
 
-This guide demonstates a simple AWS, GCP and on-premise integration, where each source is used to populate an inventory, and then all three used as contributors to populate a merged (multi-hybrid-cloud) inventory.
+This guide demonstrates a simple AWS, GCP and on-premise integration, where each source is used to populate an inventory, and then all three used as contributors to populate a merged (multi-hybrid-cloud) inventory.
 
 .. note::
 
