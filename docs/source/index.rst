@@ -7,7 +7,7 @@
     :hidden:
 
     drivers/ec2
-
+    drivers/gcp-service-account
 
 .. toctree::
     :maxdepth: 1
