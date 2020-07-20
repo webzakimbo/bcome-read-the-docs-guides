@@ -1,12 +1,11 @@
 .. meta::
-   :description lang=en: Setting up a multi-namespace network
+   :description lang=en: Setting up multiple environments for GCP.
 
+*****************
+GCP Multi-Network
+*****************
 
-***************
-Multi-Network
-***************
-
-It's likely that your Platform is comprised of multiple environments.  You can map these environment in your namespaces.
+It's likely that your platform is comprised of multiple environments.  You can map these environment in your namespaces.
 
 In this example, I've two application environments setup in GCP - "prod" and "dev".  Both environments have been built from the same Terraform template - they are identical.
 
@@ -139,6 +138,8 @@ networks.yml file
 
 Ascii Cast
 ==========
+
+The following Asciicast presents a quick run-through of navigating the namespace configuration.
 
 TODO:  ascii_casts/multi-net
 
