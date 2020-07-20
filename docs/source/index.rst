@@ -10,6 +10,7 @@
     drivers/gcp-service-account
     drivers/static-on-premise
     drivers/static-cloud
+    drivers/hybrid-static-cloud
 
 .. toctree::
     :maxdepth: 1
