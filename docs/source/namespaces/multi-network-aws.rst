@@ -13,6 +13,7 @@ I've two application environments setup in AWS - "prod" and "dev".  Both environ
 
    In this example, each Bcome namespace is populated by a separate lookup against EC2 - i.e. each namespace maps to its own ``Inventory``.
 
+   Filter keys map to labels set on servers in EC2.
 
 Tree Hierarchy
 ==============
@@ -107,7 +108,7 @@ networks.yml file
      type: inventory
      description: Frontend wbzsite
      network:
-       :filters:
+       filters:
          tag:function:  "frontend-wbzsite"
 
 Ascii Cast
@@ -116,3 +117,92 @@ Ascii Cast
 The following Asciicast presents a quick run-through of navigating the namespace configuration.
 
 TODO:  ascii_casts/multi-net-aws
+
+Alternative networks.yml configuration
+======================================
+
+The previous example performs four lookups against EC2 (one per inventory). We may reduce the number of lookups by using the inventory-subselect namespace type:
+
+.. code-block:: yaml
+
+   ---
+   wbz:
+     type: collection
+     description: WBZ aws estate
+     ssh_settings:
+       timeout_in_seconds: 10
+     network:
+       type: ec2
+       credentials_key: webzakimbo
+       provisioning_region: eu-west-1
+       filters:
+         instance-state-name: running
+
+   wbz:dev:
+     type: collection
+     description: All dev environment
+     ssh_settings:
+       proxy:
+         host_lookup: by_bcome_namespace
+         namespace: dev:xops:bastion
+     network:
+       filters:
+         tag:stack: dev-net
+
+   wbz:dev:all:
+     type: inventory
+     description: all development servers
+     hidden: true
+
+   wbz:dev:xops:
+     type: inventory-subselect
+     description: Operations namespace
+     subselect_from: dev:all
+     filters:
+       by_tag:
+         division:
+           - "xops"
+
+   wbz:dev:wbzsite:
+     type: inventory-subselect
+     description: Frontend wbzsite
+     subselect_from: dev:all
+     filters:
+       by_tag:
+         function:  "frontend-wbzsite"
+
+   wbz:prod:
+     type: collection
+     description: All prod environment
+     ssh_settings:
+       proxy:
+         host_lookup: by_bcome_namespace
+         namespace: prod:xops:bastion
+     network:
+       filters:
+         tag:stack: prod-net
+
+   wbz:prod:all:
+     type: inventory
+     description: all production servers
+     hidden: true
+
+   wbz:prod:xops:
+     type: inventory-subselect
+     description: Operations namespace
+     subselect_from: prod:all
+     filters:
+       by_tag:
+         division:
+           - "xops"
+
+   wbz:prod:wbzsite:
+     type: inventory-subselect
+     description: Frontend wbzsite
+     subselect_from: prod:all
+     filters:
+       by_tag:
+         function:  "frontend-wbzsite"
+
+The above will result in the exact same namespace configuration.
+
