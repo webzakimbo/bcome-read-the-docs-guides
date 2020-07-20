@@ -8,7 +8,8 @@
 
     namespaces/single
     namespaces/multi
-    namespaces/multi-network
+    namespaces/multi-network-gcp
+    namespaces/multi-network-aws
 
 .. toctree::
     :maxdepth: 1
