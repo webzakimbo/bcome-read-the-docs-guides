@@ -3,7 +3,7 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: Drivers
+    :caption: Manifest Schemas
     :hidden:
 
     drivers/ec2
@@ -16,13 +16,14 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: Network Types
+    :caption: Network Schemas
     :hidden:
 
     namespaces/single
     namespaces/multi
     namespaces/multi-network-gcp
     namespaces/multi-network-aws
+    namespaces/multi-account-aws
     namespaces/overriding-identifiers
 
 .. toctree::
