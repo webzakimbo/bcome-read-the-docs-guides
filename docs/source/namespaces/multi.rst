@@ -6,7 +6,7 @@
 Multi-Namespace
 ***************
 
-It is intended that you to segment your infrastructure into namespaces.   
+It's best if you segment your infrastructure into namespaces.   
 
 Think of a namespace as a particular "view" on a part, or parts of your infrastructure.
 
