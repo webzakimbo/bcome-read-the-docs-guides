@@ -2,7 +2,7 @@
 .. include:: intro.rst
 
 .. toctree::
-    :maxdepth: 0
+    :maxdepth: 1
     :caption: Drivers
     :hidden:
 
@@ -21,10 +21,9 @@
     namespaces/multi-network-gcp
     namespaces/multi-network-aws
     namespaces/multi-account-aws
-    namespaces/overriding-identifiers
   
 .. toctree::
-    :maxdepth: 0
+    :maxdepth: 1
     :caption: Network Configurations
     :hidden:
    
@@ -34,6 +33,14 @@
     network-configurations/hybrid-static-cloud
     network-configurations/multi-cloud
     network-configurations/multi-hybrid-cloud
+
+.. toctree::
+    :maxdepth: 0
+    :caption: Miscellaneous
+    :hidden:
+
+    namespaces/overriding-identifiers
+
 
 .. toctree::
     :maxdepth: 1

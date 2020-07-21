@@ -3,14 +3,16 @@
 .. meta::
    :description lang=en: Configuring Bcome's EC2 driver
 
-
 ***
 EC2
 ***
 
 This guide demonstrates a basic EC2 driver setup: a single inventory namespace is configured to populate itself with some arbitrary servers.
 
-For further configuration details, please refer to the |DOCS|_.
+.. note::
+
+   For further configuration details, please refer to the |DOCS|_.
+
 
 Directory structure
 ===================
