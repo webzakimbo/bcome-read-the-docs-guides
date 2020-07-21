@@ -10,18 +10,18 @@
     drivers/gcp-service-account
     drivers/gcp-oauth
     drivers/static
-
     
 .. toctree::
     :maxdepth: 1
     :caption: Network Configurations
     :hidden:
-
-    drivers/static-on-premise
-    drivers/static-cloud
-    drivers/hybrid-static-cloud
-    drivers/multi-cloud
-    drivers/multi-hybrid-cloud
+   
+    network-configurations/cloud
+    network-configurations/static-on-premise
+    network-configurations/static-cloud
+    network-configurations/hybrid-static-cloud
+    network-configurations/multi-cloud
+    network-configurations/multi-hybrid-cloud
 
 .. toctree::
     :maxdepth: 1

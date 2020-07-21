@@ -4,16 +4,19 @@
    :description lang=en: Configuring Bcome's EC2 driver
 
 
-***
+*******
+Drivers
+*******
+
 EC2
-***
+===
 
 This guide demonstrates a basic EC2 driver setup: a single inventory namespace is configured to populate itself with some arbitrary servers.
 
 For further configuration details, please refer to the |DOCS|_.
 
 Directory structure
-===================
+-------------------
 
 You should have a directory structure as follows:
 
@@ -33,7 +36,7 @@ The networks.yml file contains your network configuration, whilst 'keys' contain
    For further information on linking AWS accounts, see |AWS_AUTH_DOCS|_.
 
 Network Configuration
-=====================
+---------------------
 
 Below can be seen a simple network configuration that populates a single Inventory with all running instances from the 'eu-west-1' region of the linked AWS account.
 
@@ -62,7 +65,7 @@ Below can be seen a simple network configuration that populates a single Invento
    For a full list of namespace attributes see |NAMESPACE_ATTRIBUTES_DOCS|_.
 
 Ascii Cast
-==========
+----------
 
 The following Ascii Cast illustrates the above configuration:
 

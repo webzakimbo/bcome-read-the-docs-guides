@@ -3,9 +3,12 @@
 .. meta::
    :description lang=en: Populating an inventory from a static manifest
 
-******
+*******
+Drivers
+*******
+
 Static
-******
+======
 
 Where a Static Manifest has been set against a given namespace, Bcome will populate that namespace with servers from the manifest.
 
@@ -19,7 +22,7 @@ In this simple example, we add a single server into the top-level inventory name
 
 
 Directory structure
-===================
+-------------------
 
 You should have a directory structure as follows:
 
@@ -32,7 +35,7 @@ You should have a directory structure as follows:
 
 
 Static Manifest
-===============
+---------------
 
 My static-cache.yml file looks as follows:
 
@@ -54,7 +57,7 @@ It declares a single server on my local network.
 
 
 Network Configuration
-======================
+---------------------
 
 My networks.yml configuration is extremely simple: it declares a top-level Inventory namesapace, for which no cloud driver has been declared.
 
@@ -68,7 +71,7 @@ My networks.yml configuration is extremely simple: it declares a top-level Inven
 
 
 Ascii Cast
-==========
+----------
 
 TODO: ascii_casts/simple-static
 
