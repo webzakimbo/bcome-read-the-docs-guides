@@ -1,4 +1,4 @@
-.. include:: urls.rst
+.. include:: ../urls.rst
 
 .. meta::
    :description lang=en: Configuring Bcome's EC2 driver
