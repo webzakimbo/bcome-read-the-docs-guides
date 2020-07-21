@@ -12,7 +12,7 @@
     Static<drivers/static>
   
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 0
     :caption: Network Configurations
     :hidden:
    
