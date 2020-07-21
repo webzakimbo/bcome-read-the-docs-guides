@@ -9,7 +9,11 @@
 .. _DOCS: https://docs.bcome.com
 
 .. |NAMESPACE_ATTRIBUTES_DOCS| replace:: namespace attributes
-.. _NAMESPACE_ATTRIBUTES_DOCS:
+.. _NAMESPACE_ATTRIBUTES_DOCS: https://docs.bcome.com/en/2.0.0/network/network-configuration-attributes.html
+
+.. |STATIC_MANIFESTS_DOCS| replace:: static manifests
+.. _STATIC_MANIFESTS_DOCS: https://docs.bcome.com/en/2.0.0/network/static-manifests.html
+
 
 .. |AWS_AUTH_DOCS| replace:: Aws Authorization
 .. _AWS_AUTH_DOCS: https://docs.bcome.com/en/2.0.0/getting-started/prepare-aws-access.html

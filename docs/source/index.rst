@@ -8,7 +8,14 @@
 
     drivers/ec2
     drivers/gcp-service-account
+    drivers/gcp-oauth
+    drivers/static
 
+    
+.. toctree::
+    :maxdepth: 1
+    :caption: Network Configurations
+    :hidden:
 
     drivers/static-on-premise
     drivers/static-cloud
