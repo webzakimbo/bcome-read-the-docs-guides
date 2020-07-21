@@ -1,3 +1,5 @@
+.. include:: ../urls.r
+
 .. meta::
    :description lang=en: Setting up multiple environments for GCP.
 

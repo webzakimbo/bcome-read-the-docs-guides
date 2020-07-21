@@ -1,3 +1,5 @@
+.. include:: ../urls.rst
+
 .. meta::
    :description lang=en: Setting up a multi-namespace network
 
@@ -16,7 +18,7 @@ I've created my namespaces in this instance using ``sub-selected inventories``. 
 
 .. note::
 
-   The servers retrieved in this example are tagged in GCP with various labels. These labels are the subject of the filters you'll see in the networks.yml config below.
+   The servers retrieved in this example are tagged in GCP with various labels. These labels are the subject of the filters you'll see in the Network Configuration.
 
 
 Project structure

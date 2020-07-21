@@ -1,3 +1,5 @@
+.. include:: ../urls.rst
+
 .. meta::
    :description lang=en: Setting up a simple single namespace
 

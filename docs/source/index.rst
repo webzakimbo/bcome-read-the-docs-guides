@@ -27,7 +27,6 @@
     :caption: Network Configurations
     :hidden:
    
-    network-configurations/cloud
     network-configurations/static-on-premise
     network-configurations/static-cloud
     network-configurations/hybrid-static-cloud
