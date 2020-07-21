@@ -1,3 +1,5 @@
+.. include:: ../urls.rst
+
 .. meta::
    :description lang=en: Populating an inventory from a static manifest
 
