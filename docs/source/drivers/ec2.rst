@@ -37,7 +37,7 @@ The networks.yml file contains your network configuration, whilst 'keys' contain
 Network Configuration
 =====================
 
-Below can be seen a simple network configuration that populates a single Inventory with all running instances from the 'eu-west-1' region of the linked AWS account.
+The networks.yml configuration is simple:
 
 .. code-block:: yaml
 

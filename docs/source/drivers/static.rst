@@ -15,7 +15,7 @@ Where a Static Manifest has been set against a given namespace, Bcome will popul
 
 A Static Manifest allows for the declaration of servers local to your client, i.e. on-premise, or remote machines for which you may not have a configured Bcome cloud driver.
 
-In this simple example, we add a single server into the top-level inventory namespace.
+In this guide we'll add a single static server into the top-level inventory namespace.
 
 
 Directory structure
