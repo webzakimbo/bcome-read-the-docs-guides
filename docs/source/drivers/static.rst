@@ -1,9 +1,9 @@
 .. meta::
    :description lang=en: Populating an inventory from a static manifest
 
-***************
-Static Manifest
-***************
+******
+Static
+******
 
 Where a Static Manifest has been set against a given namespace, Bcome will populate that namespace with servers from the manifest.
 
