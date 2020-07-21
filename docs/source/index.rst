@@ -10,6 +10,18 @@
     drivers/gcp-service-account
     drivers/gcp-oauth
     drivers/static
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Namespacing
+    :hidden:
+
+    namespaces/single
+    namespaces/multi
+    namespaces/multi-network-gcp
+    namespaces/multi-network-aws
+    namespaces/multi-account-aws
+    namespaces/overriding-identifiers
   
 .. toctree::
     :maxdepth: 0
@@ -22,18 +34,6 @@
     network-configurations/hybrid-static-cloud
     network-configurations/multi-cloud
     network-configurations/multi-hybrid-cloud
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Network Schemas
-    :hidden:
-
-    namespaces/single
-    namespaces/multi
-    namespaces/multi-network-gcp
-    namespaces/multi-network-aws
-    namespaces/multi-account-aws
-    namespaces/overriding-identifiers
 
 .. toctree::
     :maxdepth: 1
