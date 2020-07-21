@@ -5,6 +5,12 @@
 .. |GUIDES| replace:: Guides
 .. _GUIDES: https://guides.bcome.com 
 
+.. |DOCS| replace:: documentation
+.. _DOCS: https://docs.bcome.com
+
+.. |AWS_AUTH_DOCS| replace:: Aws Authorization
+.. _AWS_AUTH_DOCS: https://docs.bcome.com/en/2.0.0/getting-started/prepare-aws-access.html
+
 .. |BCOME_SOURCE| replace:: github source
 .. _BCOME_SOURCE: https://github.com/webzakimbo/bcome-kontrol
 
