@@ -8,6 +8,9 @@
 .. |DOCS| replace:: documentation
 .. _DOCS: https://docs.bcome.com
 
+.. |NAMESPACE_ATTRIBUTES_DOCS| replace:: namespace attributes
+.. _NAMESPACE_ATTRIBUTES_DOCS:
+
 .. |AWS_AUTH_DOCS| replace:: Aws Authorization
 .. _AWS_AUTH_DOCS: https://docs.bcome.com/en/2.0.0/getting-started/prepare-aws-access.html
 

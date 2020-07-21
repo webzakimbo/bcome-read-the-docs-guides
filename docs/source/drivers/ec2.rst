@@ -32,8 +32,8 @@ The networks.yml file contains your network configuration, whilst 'keys' contain
 
    For further information on linking AWS accounts, see |AWS_AUTH_DOCS|_.
 
-networks.yml file
-=================
+Network Configuration
+=====================
 
 Below can be seen a simple network configuration that populates a single Inventory with all running instances from the 'eu-west-1' region of the linked AWS account.
 
@@ -57,9 +57,14 @@ Below can be seen a simple network configuration that populates a single Invento
          host_lookup: by_bcome_namespace
          namespace: bastion
 
+.. note::
+
+   For a full list of namespace attributes see |NAMESPACE_ATTRIBUTES_DOCS|_.
 
 Ascii Cast
 ==========
+
+The following Ascii Cast illustrates the above configuration:
 
 TODO: ascii_casts/drivers-ec2
 

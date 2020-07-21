@@ -3,11 +3,13 @@
 
 .. toctree::
     :maxdepth: 1
-    :caption: Manifest Schemas
+    :caption: Drivers
     :hidden:
 
     drivers/ec2
     drivers/gcp-service-account
+
+
     drivers/static-on-premise
     drivers/static-cloud
     drivers/hybrid-static-cloud
