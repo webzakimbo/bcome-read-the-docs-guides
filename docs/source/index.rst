@@ -2,14 +2,14 @@
 .. include:: intro.rst
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 0
     :caption: Drivers
     :hidden:
 
-    EC2<drivers/ec2>
-    GCP Service Account<drivers/gcp-service-account>
-    GCP Oauth<drivers/gcp-oauth>
-    Static<drivers/static>
+    drivers/ec2
+    drivers/gcp-service-account
+    drivers/gcp-oauth
+    drivers/static
   
 .. toctree::
     :maxdepth: 0

@@ -3,20 +3,16 @@
 .. meta::
    :description lang=en: Configuring Bcome's GCP driver for Service Account authorisation
 
-
-*******
-Drivers
-*******
-
+*******************
 GCP Service Account
--------------------
+*******************
 
 This guide demonstrates a basic GCP driver setup: a single inventory namespace is populated with servers having been authorised via a GCP service account.
 
 For further configuration details, please refer to the |DOCS|_.
 
 Directory structure
--------------------
+===================
 
 .. code-block:: bash
 
@@ -33,7 +29,7 @@ The networks.yml file contains your network configuration, whilst 'service-accou
    For further information on linking GCP accounts, see |GCP_AUTH_DOCS|_.
 
 Network Configuration
----------------------
+=====================
 
 Below can be seen a simple network configuration that populates a single Inventory with servers from a linked GCP account. 
 
@@ -66,7 +62,7 @@ Below can be seen a simple network configuration that populates a single Invento
 
 
 Ascii Cast
-----------
+==========
 
 The following Ascii Cast illustrates the above configuration:
 
