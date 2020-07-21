@@ -8,14 +8,23 @@ Multi-cloud
 
 Bcome allows for interacting with servers from multiple clouds at the same time.
 
-This guide demonstates a simple AWS & GCP integration, where each cloud is used to populate an inventory, and then both used as contributors to populate an merged (multi cloud) inventory.
+This guide demonstates a simple AWS & GCP integration, where each cloud is used to populate an inventory, and then both used as contributors to populate a merged (multi cloud) inventory.
 
 .. note::
 
    A multi-cloud inventory is no different to any other: it may be interacted with through the console, or programmatically from an orchestration script.
 
+
+For documentation on linking AWS accounts, see: |AWS_AUTH_DOCS|_.
+
+For documentation on linking GCP accounts, see: |GCP_AUTH_DOCS|_
+
+
 Directory structure
 ===================
+
+You should have a directory structure as follows:
+
 
 .. code-block:: bash
 
@@ -28,8 +37,9 @@ Directory structure
        └── networks.yml
 
 
-networks.yml file
-=================
+Network Configuration
+=====================
+
 
 .. code-block:: yaml
 
@@ -120,8 +130,11 @@ The "gcp" namespace contains servers populated from Google Cloud Platform. The "
 
   Note how the merged inventory retains the full server identifiers. This prevents name conflicts when similar inventories are used as contributors to a merge.
 
+
 SSH Routing tree
 ================
+
+The routing below illustrates the two connection pathways that Bcome will use when interacting with the servers within the installation.
 
 .. code-block:: bash
 

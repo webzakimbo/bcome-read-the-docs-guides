@@ -5,13 +5,13 @@
 On-premise
 **********
 
-The absence of a configured cloud driver will result in Bcome looking to its static-cache.yml configuration file in order to populate its inventories. 
-
-Servers are keyed on their target inventory namespaces.
-
-This will allow you to add in servers that are local to your client - i.e. on premise - into your Bcome installation.
+Where a Static Manifest has been set against a given namespace, Bcome will populate that namespace with servers from the manifest.
 
 In this simple example, we add a single server into the top-level inventory namespace.
+
+.. note::
+
+   See |STATIC_MANIFESTS_DOCS|_ for full documentation.
 
 
 Directory structure
@@ -24,7 +24,8 @@ Directory structure
        └── networks.yml
        └── static-cache.yml
 
-static-cache.yml file
+
+Static Cache manifest 
 =====================
 
 .. code-block:: yaml
@@ -41,8 +42,12 @@ static-cache.yml file
          function: filestore
          group: administrative
 
-networks.yml file
-=================
+
+Network Configuration
+=====================
+
+The networks.yml file is very simple - there is no need to specify a cloud driver as Bcome will default to loading in the declared Static Cache.
+
 
 .. code-block:: yaml
 
@@ -51,6 +56,7 @@ networks.yml file
      type: inventory
      description: Entire WBZ estate
      network: {}
+
 
 Ascii Cast
 ==========

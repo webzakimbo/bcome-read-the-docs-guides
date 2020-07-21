@@ -2,10 +2,10 @@
    :description lang=en: Configuring a static cloud
 
 ************
-Static Cloud
+Static-Cloud
 ************
 
-The absence of a configured cloud driver will result in Bcome looking to its static-cache.yml configuration file in order to populate its inventories. 
+Where a Static Manifest has been set against a given namespace, Bcome will populate that namespace with servers from the manifest (see: |STATIC_MANIFESTS_DOCS|_).
 
 As well as using this pattern to configure on-premise infrastructure, you may add in remote infrastructure for which you may not necessarily have a Bcome driver installed.
 
@@ -23,8 +23,10 @@ Directory structure
        └── static-cache.yml
 
 
-static-cache.yml file
+Static Cache manifest 
 =====================
+
+The static-cache.yml configuration below defines three remote servers.
 
 .. code-block:: yaml
 
@@ -57,8 +59,10 @@ static-cache.yml file
          function: frontend-wbzsite
 
 
-networks.yml file
-=================
+Network Configuration
+======================
+
+The networks.yml configuration remains simple - there is no need to specify a cloud driver, the system will default to populating the inventory from the Static Cache.
 
 .. code-block:: yaml
 

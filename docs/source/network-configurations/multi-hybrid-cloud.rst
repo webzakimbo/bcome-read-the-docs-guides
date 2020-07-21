@@ -28,8 +28,8 @@ Directory structure
        └── static-cache.yml
 
 
-networks.yml file
-=================
+Network Configuration
+=====================
 
 .. code-block:: yaml
 
@@ -91,7 +91,7 @@ networks.yml file
      - on_premise
 
 
-static-cache.yml file
+Static Cache Manifest
 =====================
 
 .. code-block:: yaml

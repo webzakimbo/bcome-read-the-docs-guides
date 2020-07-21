@@ -9,6 +9,7 @@ Perhaps you have on-premise & remote servers that you wish to use within the sam
 
 In this example, we'll populate one namespace with an on-premise fileserver, and another with a few servers from GCP.  As a final step, a merged inventory is created demonstrating how to interact with all the servers at once.
 
+
 Directory structure
 ===================
 
@@ -20,8 +21,10 @@ Directory structure
        └── static-cache.yml
 
 
-static-cache.yml file
+Static Cache Manifest
 =====================
+
+Here we define a single local server:
 
 .. code-block:: yaml
 
@@ -38,8 +41,10 @@ static-cache.yml file
          group: administrative
 
 
-networks.yml file
-=================
+Network Configuration
+=====================
+
+The network.yml configuration specifies three inventories: One populated from the cloud, a second populated from a static cache, and a third merging cloud & static.
 
 .. code-block:: yaml
 
@@ -109,8 +114,11 @@ Illustrated below is the installation's tree structure.  The "gcp" namespace con
 
   Note how the merged inventory retains the full server identifiers. This prevents name conflicts when similar inventories are used as contributors to a merge.
 
+
 SSH Routing Tree
 ================
+
+The following routing tree (generated using Bcome's ``routes`` command) illustrates how the system will connect to the servers within it.
 
 .. code-block:: bash
 
