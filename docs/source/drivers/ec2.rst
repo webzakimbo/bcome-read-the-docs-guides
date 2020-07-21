@@ -8,7 +8,7 @@
 EC2 Driver
 **********
 
-This guide demonstrates a basic EC2 driver setup: a single inventory namespace is configured to populate itself with some arbitrary running instances within the eu-west-1 region.
+This guide demonstrates a basic EC2 driver setup: a single inventory namespace is configured to populate itself with some arbitrary servers.
 
 For further configuration details, please refer to the |DOCS|_.
 
