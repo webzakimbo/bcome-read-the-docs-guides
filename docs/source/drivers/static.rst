@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en: Configuring an on-premise inventory
+   :description lang=en: Populating an inventory from a static manifest
 
 ***************
 Static Manifest
