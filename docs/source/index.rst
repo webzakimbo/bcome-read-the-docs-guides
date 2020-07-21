@@ -6,11 +6,11 @@
     :caption: Drivers
     :hidden:
 
-    drivers/ec2
-    drivers/gcp-service-account
-    drivers/gcp-oauth
-    drivers/static
-    
+    EC2<drivers/ec2>
+    GCP Service Account<drivers/gcp-service-account>
+    GCP Oauth<drivers/gcp-oauth>
+    Static<drivers/static>
+  
 .. toctree::
     :maxdepth: 1
     :caption: Network Configurations
