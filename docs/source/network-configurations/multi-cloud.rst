@@ -1,7 +1,6 @@
 .. meta::
    :description lang=en: Configuring Bcome for multi-cloud
 
-
 ***********
 Multi-cloud
 ***********
@@ -13,7 +12,6 @@ This guide demonstates a simple AWS & GCP integration, where each cloud is used 
 .. note::
 
    A multi-cloud inventory is no different to any other: it may be interacted with through the console, or programmatically from an orchestration script.
-
 
 For documentation on linking AWS accounts, see: |AWS_AUTH_DOCS|_.
 
@@ -88,12 +86,13 @@ Network Configuration
 
      override_identifier: "[a-z]*_[a-z]*_(.+)"
 
-   wbz:hybrid:
+   wbz:multicloud:
      type: inventory-merge
-     description: GCP & on-premise infrastructure
+     description: GCP & AWS
      contributors:
      - gcp
      - aws
+
 
 
 Tree Hierarchy
@@ -102,6 +101,7 @@ Tree Hierarchy
 Illustrated below is the installation's tree structure.  
 
 The "gcp" namespace contains servers populated from Google Cloud Platform. The "aws" namespace contains servers populated from Amazon Web Services.  The "multicloud" namespace merges them both.
+
 
 .. code-block:: bash
 
@@ -120,11 +120,14 @@ The "gcp" namespace contains servers populated from Google Cloud Platform. The "
       │         └───╸ server wbzsite_app_sq6v
       │
       └───╸ inventory-merge multicloud
-                ├───╸ server wbz_multicloud_bastion
-                ├───╸ server wbz_multicloud_puppet
-                ├───╸ server wbz_multicloud_wbzsite_app1
-                ├───╸ server wbz_multicloud_wbzsite_app2
-                └───╸ server wbz_multicloud_wbzsite_app_sq6v
+                ├───╸ server wbz_aws_bastion
+                ├───╸ server wbz_aws_puppet
+                ├───╸ server wbz_aws_wbzsite_app1
+                ├───╸ server wbz_aws_wbzsite_app2
+                ├───╸ server wbz_gcp_bastion
+                ├───╸ server wbz_gcp_puppet
+                └───╸ server wbz_gcp_wbzsite_app_sq6v
+
 
 .. note::
 

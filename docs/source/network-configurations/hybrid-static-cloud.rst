@@ -101,14 +101,13 @@ Illustrated below is the installation's tree structure.  The "gcp" namespace con
       │         └───╸ server wbzsite_app_sq6v
       │
       ├───╸ inventory-merge hybrid
-      │         ├───╸ server wbz_hybrid_bastion
-      │         ├───╸ server wbz_hybrid_fserver_a
-      │         ├───╸ server wbz_hybrid_puppet
-      │         └───╸ server wbz_hybrid_wbzsite_app_sq6v
+      │         ├───╸ server wbz_gcp_bastion
+      │         ├───╸ server wbz_gcp_puppet
+      │         ├───╸ server wbz_gcp_wbzsite_app_sq6v
+      │         └───╸ server wbz_on_premise_fserver_a
       │
       └───╸ inventory on_premise
                 └───╸ server fserver_a
-
 
 .. note::
 

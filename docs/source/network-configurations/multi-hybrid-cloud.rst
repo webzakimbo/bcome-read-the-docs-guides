@@ -120,7 +120,6 @@ The "hybrid" namespace merges all three.
 
 .. code-block:: bash
 
-
       ▐▆   Namespace tree wbz
       │
       ├───╸ inventory aws
@@ -135,12 +134,14 @@ The "hybrid" namespace merges all three.
       │         └───╸ server wbzsite_app_sq6v
       │
       ├───╸ inventory-merge hybrid
-      │         ├───╸ server wbz_hybrid_bastion
-      │         ├───╸ server wbz_hybrid_fileserver_a
-      │         ├───╸ server wbz_hybrid_puppet
-      │         ├───╸ server wbz_hybrid_wbzsite_app1
-      │         ├───╸ server wbz_hybrid_wbzsite_app2
-      │         └───╸ server wbz_hybrid_wbzsite_app_sq6v
+      │         ├───╸ server wbz_aws_bastion
+      │         ├───╸ server wbz_aws_puppet
+      │         ├───╸ server wbz_aws_wbzsite_app1
+      │         ├───╸ server wbz_aws_wbzsite_app2
+      │         ├───╸ server wbz_gcp_bastion
+      │         ├───╸ server wbz_gcp_puppet
+      │         ├───╸ server wbz_gcp_wbzsite_app_sq6v
+      │         └───╸ server wbz_on_premise_fileserver_a
       │
       └───╸ inventory on_premise
                 └───╸ server fileserver_a
@@ -212,4 +213,4 @@ SSH Routing tree
 Ascii Cast
 ==========
 
-TODO: ascii_casts/multi-hybrid-cloud
+TODO: ascii_casts/multi-hybrid-cloud§
