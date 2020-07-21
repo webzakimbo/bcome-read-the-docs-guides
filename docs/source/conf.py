@@ -8,7 +8,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Bcome'
+project = u'Bcome Utilisation Guides'
 copyright = u'2020 Webzakimbo Ltd.'
 
 author = u'Webzakimbo Ltd.'
