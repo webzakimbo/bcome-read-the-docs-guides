@@ -70,8 +70,13 @@ My networks.yml configuration is extremely simple: it declares a top-level Inven
 Ascii Cast
 ==========
 
-TODO: ascii_casts/simple-static
+.. raw:: html
 
+   <a href="https://asciinema.org/a/THHfySR7m6V50VkWKBjw7OSzG" target="_blank"><img src="https://asciinema.org/a/THHfySR7m6V50VkWKBjw7OSzG.svg" /></a>
 
+.. note::
 
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/THHfySR7m6V50VkWKBjw7OSzG``
 
