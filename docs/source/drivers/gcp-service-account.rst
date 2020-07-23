@@ -66,5 +66,12 @@ Ascii Cast
 
 The following Ascii Cast illustrates the above configuration:
 
-TODO: ascii_casts/drivers-gcp-service-account
+.. raw:: html
 
+   <a href="https://asciinema.org/a/YCWMpROQy70UIpUaiUlOemF39" target="_blank"><img src="https://asciinema.org/a/YCWMpROQy70UIpUaiUlOemF39.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/YCWMpROQy70UIpUaiUlOemF39``
