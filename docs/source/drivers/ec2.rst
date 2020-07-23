@@ -68,5 +68,14 @@ Ascii Cast
 
 The following Ascii Cast illustrates the above configuration:
 
-TODO: ascii_casts/drivers-ec2
+.. raw:: html
+
+   <a href="https://asciinema.org/a/0kwvSqjdkl9N3GYE39ZgHzzWP" target="_blank"><img src="https://asciinema.org/a/0kwvSqjdkl9N3GYE39ZgHzzWP.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/0kwvSqjdkl9N3GYE39ZgHzzWP``
+
 

@@ -147,6 +147,7 @@ Ascii Cast
 .. raw:: html
 
    <a href="https://asciinema.org/a/SNXoHJ1dFMJVTuokSh9V6VY8i" target="_blank"><img src="https://asciinema.org/a/SNXoHJ1dFMJVTuokSh9V6VY8i.svg" /></a>
+
 .. note:: 
 
    To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
