@@ -61,10 +61,11 @@ Ascii Cast
 
 .. raw:: html
 
-   <a href="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ" target="_blank"><img src="https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ.svg" /></a>
+   <a href="https://asciinema.org/a/VGmOXnE89Qwd7yqQozuWuAIS4" target="_blank"><img src="https://asciinema.org/a/VGmOXnE89Qwd7yqQozuWuAIS4.svg" /></a>
+
 .. note:: 
 
    To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
 
-   ``asciinema play https://asciinema.org/a/wSkGafvHxF6cDJgpAgN2x70cZ``
+   ``asciinema play https://asciinema.org/a/VGmOXnE89Qwd7yqQozuWuAIS4``
 
