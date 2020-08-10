@@ -1,3 +1,5 @@
+.. include:: ../urls.rst
+
 .. meta::
    :description lang=en: Configuring Bcome for multi-cloud
 
