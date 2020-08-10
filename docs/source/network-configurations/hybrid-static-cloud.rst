@@ -1,9 +1,9 @@
 .. meta::
    :description lang=en: Configuring a hybrid static cloud
 
-************
-Hybrid Cloud
-************
+*******************
+Hybrid Static Cloud
+*******************
 
 Perhaps you have on-premise & remote servers that you wish to use within the same installation. 
 
