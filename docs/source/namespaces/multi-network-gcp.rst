@@ -1,4 +1,4 @@
-.. include:: ../urls.r
+.. include:: ../urls.rst
 
 .. meta::
    :description lang=en: Setting up multiple environments for GCP.
@@ -160,5 +160,4 @@ The following Asciicast presents a quick run-through of navigating the namespace
    To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
 
    ``asciinema play https://asciinema.org/a/gFl72t4mFX42djQDdJIxVQtp5``
-
 
