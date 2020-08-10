@@ -124,7 +124,16 @@ Ascii Cast
 
 The following Asciicast presents a quick run-through of navigating the namespace configuration.
 
-TODO:  ascii_casts/multi-net-aws
+
+.. raw:: html
+
+   <a href="https://asciinema.org/a/YQ5oNHDABJ7wjkGvdLKvYKWZj" target="_blank"><img src="https://asciinema.org/a/YQ5oNHDABJ7wjkGvdLKvYKWZj.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/YQ5oNHDABJ7wjkGvdLKvYKWZj``
 
 
 Alternative Network Configuration
