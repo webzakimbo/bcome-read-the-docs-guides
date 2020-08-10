@@ -98,4 +98,15 @@ Network Configuration
 Ascii Cast
 ==========
 
-  TODO: ascii_casts/override-identifier.cast
+The following Asciicast presents a quick run-through of navigating the namespace configuration.
+
+.. raw:: html
+
+   <a href="https://asciinema.org/a/l28TSXqlLjQCF9trrbtvO5KSL" target="_blank"><img src="https://asciinema.org/a/l28TSXqlLjQCF9trrbtvO5KSL.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/l28TSXqlLjQCF9trrbtvO5KSL``
+
