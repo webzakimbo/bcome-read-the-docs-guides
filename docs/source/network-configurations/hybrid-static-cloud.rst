@@ -89,7 +89,7 @@ The network.yml configuration specifies three inventories: One populated from th
 Tree Hierarchy
 ==============
 
-Illustrated below is the installation's tree structure.  The "gcp" namespace contains servers populated from Google Cloud Platform.  The "on_premise" is a local fileserver, whilst the "hybrid" namespace amerges both allowing orchestration of all at the same time.
+Illustrated below is the installation's tree structure.  The "gcp" namespace contains servers populated from Google Cloud Platform.  The "on_premise" is a local fileserver, whilst the "hybrid" namespace merges both allowing orchestration of all at the same time.
 
 .. code-block:: bash
 
@@ -152,6 +152,13 @@ The following routing tree (generated using Bcome's ``routes`` command) illustra
 Ascii Cast
 ==========
 
-TODO ascii_casts/hybrid-cloud
+.. raw:: html
 
+   <a href="https://asciinema.org/a/MTctn1cAnAWdGt8nG0r1N7mjp" target="_blank"><img src="https://asciinema.org/a/MTctn1cAnAWdGt8nG0r1N7mjp.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/MTctn1cAnAWdGt8nG0r1N7mjp``
 

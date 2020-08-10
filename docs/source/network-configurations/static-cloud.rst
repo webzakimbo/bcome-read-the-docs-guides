@@ -81,13 +81,15 @@ The networks.yml configuration remains simple - there is no need to specify a cl
          host_lookup: by_bcome_namespace
          namespace: bastion
 
+Ascii Cast
+==========
 
 .. raw:: html
 
-   <a href="https://asciinema.org/a/MTctn1cAnAWdGt8nG0r1N7mjp" target="_blank"><img src="https://asciinema.org/a/MTctn1cAnAWdGt8nG0r1N7mjp.svg" /></a>
+   <a href="https://asciinema.org/a/HJWt7HSZCLnth823FhyVcje85" target="_blank"><img src="https://asciinema.org/a/HJWt7HSZCLnth823FhyVcje85.svg" /></a>
 
 .. note::
 
    To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
 
-   ``asciinema play https://asciinema.org/a/MTctn1cAnAWdGt8nG0r1N7mjp``
+   ``asciinema play https://asciinema.org/a/HJWt7HSZCLnth823FhyVcje85``
