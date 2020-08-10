@@ -150,6 +150,15 @@ Ascii Cast
 
 The following Asciicast presents a quick run-through of navigating the namespace configuration.
 
-TODO:  ascii_casts/multi-net
+
+.. raw:: html
+
+   <a href="https://asciinema.org/a/gFl72t4mFX42djQDdJIxVQtp5" target="_blank"><img src="https://asciinema.org/a/gFl72t4mFX42djQDdJIxVQtp5.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/gFl72t4mFX42djQDdJIxVQtp5``
 
 
