@@ -99,7 +99,7 @@ Static Cache Manifest
    ---
    wbz:on_premise:
    - identifier: fileserver_a
-     internal_ip_address: 192.168.1.50
+     internal_ip_address: 192.168.0.24
      local_network: yes
      description: Office filestore
      cloud_tags:
@@ -213,4 +213,16 @@ SSH Routing tree
 Ascii Cast
 ==========
 
-TODO: ascii_casts/multi-hybrid-cloud§
+The following Asciicast presents a quick run-through of navigating the namespace configuration.
+
+
+.. raw:: html
+
+   <a href="https://asciinema.org/a/0WfGGYxUpR5gm2heeWFK4SpvJ" target="_blank"><img src="https://asciinema.org/a/0WfGGYxUpR5gm2heeWFK4SpvJ.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/0WfGGYxUpR5gm2heeWFK4SpvJ``
+
