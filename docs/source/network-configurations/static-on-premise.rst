@@ -1,3 +1,5 @@
+.. include:: ../urls.rst
+
 .. meta::
    :description lang=en: Configuring an on-premise inventory
 
@@ -61,8 +63,12 @@ The networks.yml file is very simple - there is no need to specify a cloud drive
 Ascii Cast
 ==========
 
-TODO: ascii_casts/simple-static
+.. raw:: html
 
+   <a href="https://asciinema.org/a/qsdvlGamV0UX36OK8wKlBHBBK" target="_blank"><img src="https://asciinema.org/a/qsdvlGamV0UX36OK8wKlBHBBK.svg" /></a>
 
+.. note::
 
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
 
+   ``asciinema play https://asciinema.org/a/qsdvlGamV0UX36OK8wKlBHBBK``
