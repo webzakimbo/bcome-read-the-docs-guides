@@ -7,7 +7,7 @@ Multi-cloud
 
 Bcome allows for interacting with servers from multiple clouds at the same time.
 
-This guide demonstates a simple AWS & GCP integration, where each cloud is used to populate an inventory, and then both used as contributors to populate a merged (multi cloud) inventory.
+This guide demonstrates a simple AWS & GCP integration, where each cloud is used to populate an inventory, and then both used as contributors to populate a merged (multi cloud) inventory.
 
 .. note::
 
@@ -190,8 +190,15 @@ The routing below illustrates the two connection pathways that Bcome will use wh
                       ip address 10.0.0.2
                       user guillaume
 
-
 Ascii Cast
 ==========
 
-TODO: ascii_casts/multi-cloud
+.. raw:: html
+
+   <a href="https://asciinema.org/a/6o3aRMAMZ10Kd7if3Bfr3rDqb" target="_blank"><img src="https://asciinema.org/a/6o3aRMAMZ10Kd7if3Bfr3rDqb.svg" /></a>
+
+.. note::
+
+   To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
+
+   ``asciinema play https://asciinema.org/a/6o3aRMAMZ10Kd7if3Bfr3rDqb``
