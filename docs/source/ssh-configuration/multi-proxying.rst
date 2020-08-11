@@ -4,9 +4,9 @@
    :description lang=en: Bcome's SSH configuration - Multi- proxying
 
 
-*************************
-Multi-proxying (internal)
-*************************
+**************
+Multi-proxying
+**************
 
 If you connect to your machines via an intermediary, then you will need to include a Proxy host in your SSH configuration. 
 
