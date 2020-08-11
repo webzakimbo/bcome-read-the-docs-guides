@@ -71,4 +71,4 @@ The AsciiCast below demonstrates my configuration:
 
    ``asciinema play https://asciinema.org/a/Z8wHFA8DwYYHiKaG1oh7ZYenS``
 
-See the Bcome documentation for more detailed & alternative proxy configuration options: |SSH_PROXY_DOCS|.
+See the Bcome documentation for more detailed & alternative proxy configuration options: |DOCS|.
