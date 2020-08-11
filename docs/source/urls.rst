@@ -17,6 +17,9 @@
 .. |SSH_ATTR_DOCS| replace:: SSH Attributes Configuration
 .. _SSH_ATTR_DOCS: https://docs.bcome.com/en/latest/network/network-configuration-attributes.html#ssh-attrs
 
+.. |SSH_PROXY_DOCS| replace:: SSH Proxy Attributes Configuration
+.. _SSH_PROXY_DOCS: https://docs.bcome.com/en/latest/network/network-configuration-attributes.html#proxy-attributes
+
 .. |AWS_AUTH_DOCS| replace:: Aws Authorization
 .. _AWS_AUTH_DOCS: https://docs.bcome.com/en/2.0.0/getting-started/prepare-aws-access.html
 
