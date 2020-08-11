@@ -40,6 +40,13 @@
 
     namespaces/overriding-identifiers
 
+.. toctree::
+    :maxdepth: 0
+    :caption: SSH configuration
+    :hidden:
+
+    ssh-configuration/most-basic
+
 
 .. toctree::
     :maxdepth: 1
