@@ -19,7 +19,7 @@ If you connect to your machines via an intermediary, then you will need to inclu
 Example configuration
 ---------------------
 
-The networks.yml configuration below defines two inventories: one containing a proxy server, and the other containing servers that may only be connected via the proxy.
+The networks.yml configuration below defines two inventories: one containing a proxy server, and the other containing servers that may only be connected to via the proxy.
 
 .. code-block:: yaml
 
