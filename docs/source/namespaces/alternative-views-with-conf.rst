@@ -7,11 +7,11 @@
 Alternative Views
 *****************
 
-You may generate alternative views on the same infrastructure by using the CONF= environment variable.  This is useful if you need to provide different views for different teams, without having to generate whole new installations (and copying across any shared orchestrative functions you may have written).
+You may generate alternative views on the same infrastructure by using the CONF= environment variable.  This is useful if you need to provide different views for different teams, without having to generate whole new installations (and copying across any shared orchestration you may have written).
 
 See |CONF_VAR|_ for full configuration details & usage instructions.
 
-The following Asciicast demonstrates how the same infrastructure may be visualized differently by specifying alternative network configuration using the CONF environment variable:
+The following Asciicast demonstrates how the same infrastructure may be visualised differently by specifying alternative network configuration using the CONF environment variable:
 
 .. raw:: html
 
