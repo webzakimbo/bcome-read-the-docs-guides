@@ -47,7 +47,7 @@
 
     ssh-configuration/most-basic
     ssh-configuration/basic-proxying
-
+    ssh-configuration/multi-proxying-internal
 
 .. toctree::
     :maxdepth: 1
