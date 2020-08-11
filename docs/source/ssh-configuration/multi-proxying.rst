@@ -16,8 +16,6 @@ This guide expands on the :doc:`../ssh-configuration/basic-proxying` guide to de
 Example configuration
 ---------------------
 
-The networks.yml configuration below defines two inventories: one containing a proxy server, and the other containing servers that may only be connected to via the proxy.
-
 The networks.yml configuration below defines three inventories: one containing a public-facing proxy server, the second a proxy server installed intra-network (and accessible only from the first), whilst the third inventory defines servers reachable by proxying via both proxy servers. 
 
 .. code-block:: yaml
