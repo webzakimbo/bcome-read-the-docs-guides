@@ -21,7 +21,8 @@
     namespaces/multi-network-gcp
     namespaces/multi-network-aws
     namespaces/multi-account-aws
-  
+    namespaces/alternative-views-with-conf 
+ 
 .. toctree::
     :maxdepth: 1
     :caption: Network Configurations
