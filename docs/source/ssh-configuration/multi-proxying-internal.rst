@@ -73,6 +73,40 @@ My local user is ``guillaume``, and I have ssh keys added to my agent.
 
    The ``proxy`` block in your ``ssh_settings`` is an array of proxies: you may define as many as you like.
 
+Routes
+------
+
+Bcome's ``routes`` command will result in the following for the above configuration:
+
+.. code-block:: bash
+
+         ▐▆   Ssh connection routes wbz
+         │
+         ├───╸ server
+         │     namespace: wbz:public_proxies:bastion
+         │     ip address 104.155.101.98
+         │     user guillaume
+         │
+         └───╸ proxy [1]
+               bcome node wbz:public_proxies:bastion
+               host 104.155.101.98
+               user guillaume
+
+                   └───╸ proxy [2]
+                         bcome node wbz:private_proxies:internal_jump
+                         host 10.0.33.2
+                         user guillaume
+   
+                             ├───╸ server
+                             │     namespace: wbz:servers:puppet
+                             │     ip address 10.0.0.10
+                             │     user guillaume
+                             │
+                             └───╸ server
+                                   namespace: wbz:servers:wbzsite_app_sq6v
+                                   ip address 10.0.0.2
+                                   user guillaume
+
 The AsciiCast below demonstrates my configuration:
 
 .. raw:: html
