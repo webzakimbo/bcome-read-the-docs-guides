@@ -48,6 +48,7 @@
     ssh-configuration/most-basic
     ssh-configuration/basic-proxying
     ssh-configuration/multi-proxying
+    ssh-configuration/overriding-with-me
 
 .. toctree::
     :maxdepth: 1

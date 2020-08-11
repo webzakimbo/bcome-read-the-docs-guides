@@ -17,6 +17,12 @@
 .. |SSH_ATTR_DOCS| replace:: SSH Attributes Configuration
 .. _SSH_ATTR_DOCS: https://docs.bcome.com/en/latest/network/network-configuration-attributes.html#ssh-attrs
 
+.. |SSH_ME_CONF_DOCS| replace:: Overriding SSH configuration with 'ME' env variable 
+.. _SSH_ME_CONF_DOCS: https://docs.bcome.com/en/latest/network/alternative-configuration.html#ad-hoc-overriding-of-network-yml-with-me
+
+.. |SSH_ME_FILE_DOCS| replace:: Overriding SSH configuration with me.yml configuration file
+.. _SSH_ME_FILE_DOCS: replace:: https://docs.bcome.com/en/latest/network/alternative-configuration.html#the-me-yml-configuration-file
+
 .. |SSH_PROXY_DOCS| replace:: SSH Proxy Attributes Configuration
 .. _SSH_PROXY_DOCS: https://docs.bcome.com/en/latest/network/network-configuration-attributes.html#proxy-attributes
 
