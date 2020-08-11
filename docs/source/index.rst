@@ -46,6 +46,7 @@
     :hidden:
 
     ssh-configuration/most-basic
+    ssh-configuration/basic-proxying
 
 
 .. toctree::

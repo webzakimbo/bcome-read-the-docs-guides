@@ -58,5 +58,5 @@ My local user is ``guillaume``, and I have ssh keys added to my agent.  See how 
 
    ``asciinema play https://asciinema.org/a/1KJiA2r4GoxQdtKuVSFsjqeMb``
 
-   For more detailed configuration options, please refer to the |DOCS|_.
+See the Bcome documentation for more detailed configuration options: |SSH_ATTR_DOCS|.
 
