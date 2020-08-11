@@ -55,6 +55,8 @@ The networks.yml configuration below defines two inventories: one containing a p
          - host_lookup: by_bcome_namespace
            namespace: proxies:bastion
 
+The 'proxies' inventory contains a single server named 'bastion' that the 'servers' inventory machines are configured above to use as their proxy.
+
 My local user is ``guillaume``, and I have ssh keys added to my agent.  
 
 The AsciiCast below illustrates how I may interact with my servers configured in this way:
