@@ -64,6 +64,7 @@
     built-in-commands/tunneling
     built-in-commands/ping
     built-in-commands/rsync
+    built-in-commands/pseudo-tty
 
 .. toctree::
     :maxdepth: 1
