@@ -60,6 +60,7 @@
     built-in-commands/routes
     built-in-commands/run
     built-in-commands/ssh-to-server
+    built-in-commands/interactive-mode
 
 .. toctree::
     :maxdepth: 1
