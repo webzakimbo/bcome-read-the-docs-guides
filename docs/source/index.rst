@@ -62,6 +62,7 @@
     built-in-commands/ssh-to-server
     built-in-commands/interactive-mode
     built-in-commands/tunneling
+    built-in-commands/ping
 
 .. toctree::
     :maxdepth: 1
