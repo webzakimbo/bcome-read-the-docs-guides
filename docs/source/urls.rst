@@ -14,26 +14,32 @@
 .. |STATIC_MANIFESTS_DOCS| replace:: static manifests
 .. _STATIC_MANIFESTS_DOCS: https://docs.bcome.com/en/2.0.0/network/static-manifests.html
 
+.. |EXECUTING_COMMANDS_DOCS| replace:: executing commands
+.. _EXECUTING_COMMANDS_DOCS: https://docs.bcome.com/en/2.0.0/usage/executing-commands.html
+
+.. |COMMAND_MENU_DOCS| replace:: command menu
+.. _COMMAND_MENU_DOCS: https://docs.bcome.com/en/2.0.0/usage/command-menu.html
+
 .. |SSH_ATTR_DOCS| replace:: SSH Attributes Configuration
-.. _SSH_ATTR_DOCS: https://docs.bcome.com/en/latest/network/network-configuration-attributes.html#ssh-attrs
+.. _SSH_ATTR_DOCS: https://docs.bcome.com/en/2.0.0/network/network-configuration-attributes.html#ssh-attrs
 
 .. |CONF_VAR| replace:: Alternative Configuration with CONF=
-.. _CONF_VAR: https://docs.bcome.com/en/latest/network/alternative-configuration.html
+.. _CONF_VAR: https://docs.bcome.com/en/2.0.0/network/alternative-configuration.html
 
 .. |SSH_ME_CONF_DOCS| replace:: Overriding SSH configuration with 'ME' env variable 
-.. _SSH_ME_CONF_DOCS: https://docs.bcome.com/en/latest/network/alternative-configuration.html#ad-hoc-overriding-of-network-yml-with-me
+.. _SSH_ME_CONF_DOCS: https://docs.bcome.com/en/2.0.0/network/alternative-configuration.html#ad-hoc-overriding-of-network-yml-with-me
 
 .. |SSH_ME_FILE_DOCS| replace:: Overriding SSH configuration with me.yml configuration file
-.. _SSH_ME_FILE_DOCS: https://docs.bcome.com/en/latest/network/alternative-configuration.html#the-me-yml-configuration-file
+.. _SSH_ME_FILE_DOCS: https://docs.bcome.com/en/2.0.0/network/alternative-configuration.html#the-me-yml-configuration-file
 
 .. |SSH_PROXY_DOCS| replace:: SSH Proxy Attributes Configuration
-.. _SSH_PROXY_DOCS: https://docs.bcome.com/en/latest/network/network-configuration-attributes.html#proxy-attributes
+.. _SSH_PROXY_DOCS: https://docs.bcome.com/en/2.0.0/network/network-configuration-attributes.html#proxy-attributes
 
 .. |AWS_AUTH_DOCS| replace:: Aws Authorization
 .. _AWS_AUTH_DOCS: https://docs.bcome.com/en/2.0.0/getting-started/prepare-aws-access.html
 
 .. |GCP_AUTH_DOCS| replace:: GCP Authorization
-.. _GCP_AUTH_DOCS: https://docs.bcome.com/en/latest/getting-started/prepare-gcp-access.html
+.. _GCP_AUTH_DOCS: https://docs.bcome.com/en/2.0.0/getting-started/prepare-gcp-access.html
 
 .. |BCOME_SOURCE| replace:: github source
 .. _BCOME_SOURCE: https://github.com/webzakimbo/bcome-kontrol

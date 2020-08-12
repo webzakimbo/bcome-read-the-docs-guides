@@ -52,6 +52,13 @@
     ssh-configuration/overriding-with-me
 
 .. toctree::
+    :maxdepth: 0
+    :caption: Built in commands
+    :hidden:
+
+    built-in-commands/run
+
+.. toctree::
     :maxdepth: 1
     :caption: Resources
 
