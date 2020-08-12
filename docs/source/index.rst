@@ -63,6 +63,7 @@
     built-in-commands/interactive-mode
     built-in-commands/tunneling
     built-in-commands/ping
+    built-in-commands/rsync
 
 .. toctree::
     :maxdepth: 1
