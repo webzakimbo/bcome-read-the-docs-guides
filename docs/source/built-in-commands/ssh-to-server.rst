@@ -5,7 +5,7 @@
 
 ***************
 SSH to a server
-****************
+***************
 
 The ``ssh`` command is used to initiate an SSH session with a target server.
 

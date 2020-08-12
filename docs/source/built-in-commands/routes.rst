@@ -3,9 +3,9 @@
 .. meta::
    :description lang=en: Built in commands - routes
 
-****
+******
 Routes
-****
+******
 
 The ``routes`` command displays the pathways your SSH connections will take to reach your servers.
 

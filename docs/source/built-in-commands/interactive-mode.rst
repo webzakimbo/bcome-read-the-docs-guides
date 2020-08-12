@@ -3,9 +3,9 @@
 .. meta::
    :description lang=en: Built in commands - interactive
 
-****
-Tree
-****
+****************
+Interactive mode
+****************
 
 The ``interactive`` command loads an interactive REPL shell allowing you to execute repeated commands in real-time against targetted servers.
 
