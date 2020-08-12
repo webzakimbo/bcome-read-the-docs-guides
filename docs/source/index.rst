@@ -57,6 +57,7 @@
     :hidden:
 
     built-in-commands/run
+    built-in-commands/ssh-to-server
 
 .. toctree::
     :maxdepth: 1
