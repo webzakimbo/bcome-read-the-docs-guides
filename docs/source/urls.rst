@@ -17,7 +17,7 @@
 .. |SSH_ATTR_DOCS| replace:: SSH Attributes Configuration
 .. _SSH_ATTR_DOCS: https://docs.bcome.com/en/latest/network/network-configuration-attributes.html#ssh-attrs
 
-.. |CONF_VAR| replace:: CONF Environment Variable
+.. |CONF_VAR| replace:: Alternative Configuration with CONF=
 .. _CONF_VAR: https://docs.bcome.com/en/latest/network/alternative-configuration.html
 
 .. |SSH_ME_CONF_DOCS| replace:: Overriding SSH configuration with 'ME' env variable 
