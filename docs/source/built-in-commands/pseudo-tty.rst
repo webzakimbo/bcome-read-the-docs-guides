@@ -11,7 +11,7 @@ The ``pseudo-tty`` command allows you to execute a command against a server for 
 
 For example, this could be to tail a log, or to access a remote console, such as a MySQL console.
 
-The following AsciiCast illustrates how to utilise pseudo-tty to execute a 'top' command and then tail a log file:
+The following AsciiCast illustrates how to utilise pseudo-tty to execute a 'top' command.
 
 .. raw:: html
 
