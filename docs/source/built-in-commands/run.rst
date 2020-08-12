@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - Run
+   :description lang=en: Built in commands - run
 
 ***
 Run

@@ -56,6 +56,7 @@
     :caption: Built in commands
     :hidden:
 
+    built-in-commands/tree
     built-in-commands/run
     built-in-commands/ssh-to-server
 
