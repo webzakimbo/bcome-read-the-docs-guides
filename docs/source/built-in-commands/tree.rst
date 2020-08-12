@@ -7,9 +7,9 @@
 Tree
 ****
 
-The 'tree' command lets you view the tree structure of your Bcome namespaces.
+The ``tree`` command returns a visualisation of your Bcome namespace configuration.
 
-The following AsciiCast demonstrates the usage of the tree command. 
+The following AsciiCast demonstrates its usage.
 
 .. raw:: html
 

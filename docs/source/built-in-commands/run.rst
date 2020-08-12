@@ -7,7 +7,9 @@
 Run
 ***
 
-The following AsciiCast demonstrates the usage of the built-in 'run' command, used to execute commands against machines in targetted namespaces.
+The ``run`` command is used to execute commands against machines in targetted namespaces.
+
+The following AsciiCast demonstrates the usage of this command:
 
 .. raw:: html
 

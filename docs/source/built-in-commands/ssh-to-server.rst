@@ -7,7 +7,9 @@
 SSH to a server
 ****************
 
-The following AsciiCast demonstrates the usage of the built-in 'ssh' command, used to initiate an SSH session with a target server.
+The ``ssh`` command is used to initiate an SSH session with a target server.
+
+The following AsciiCast demonstrates the usage of this command:
 
 .. raw:: html
 
