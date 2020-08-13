@@ -3,9 +3,9 @@
 .. meta::
    :description lang=en: Built in commands - put_str
 
-***
+*******
 put_str
-***
+*******
 
 The ``put_str`` command creates a file from a string. 
 
