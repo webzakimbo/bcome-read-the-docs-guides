@@ -66,6 +66,7 @@
     built-in-commands/rsync
     built-in-commands/pseudo-tty
     built-in-commands/put-str
+    built-in-commands/get
 
 .. toctree::
     :maxdepth: 1
