@@ -3,9 +3,9 @@
 .. meta::
    :description lang=en: Built in commands - tunnel
 
-*********
-Tunneling
-*********
+******
+tunnel
+******
 
 The ``tunnel`` command forwards a remote port locally. 
 

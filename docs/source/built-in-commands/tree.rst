@@ -4,7 +4,7 @@
    :description lang=en: Built in commands - tree
 
 ****
-Tree
+tree
 ****
 
 The ``tree`` command returns a visualisation of your Bcome namespace configuration.

@@ -4,10 +4,10 @@
    :description lang=en: Built in commands - pseudo-tty
 
 **********
-Pseudo-tty
+pseudo_tty
 **********
 
-The ``pseudo-tty`` command allows you to execute a command against a server for which you need an interactive shell.
+The ``pseudo_tty`` command allows you to execute a command against a server for which you need an interactive shell.
 
 For example, this could be to tail a log, or to access a remote console, such as a MySQL console.
 

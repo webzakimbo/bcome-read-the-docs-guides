@@ -4,7 +4,7 @@
    :description lang=en: Built in commands - ping
 
 ****
-Ping
+ping
 ****
 
 The ``ping`` command is used to determine whether your SSH configuration functions.  

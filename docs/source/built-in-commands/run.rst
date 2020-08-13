@@ -4,7 +4,7 @@
    :description lang=en: Built in commands - run
 
 ***
-Run
+run
 ***
 
 The ``run`` command is used to execute commands against machines in targetted namespaces.

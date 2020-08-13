@@ -3,9 +3,9 @@
 .. meta::
    :description lang=en: Built in commands - ssh
 
-***************
-SSH to a server
-***************
+***
+ssh
+***
 
 The ``ssh`` command is used to initiate an SSH session with a target server.
 

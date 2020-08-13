@@ -4,10 +4,14 @@
    :description lang=en: Built in commands - rsync
 
 *****
-Rsync
+rsync
 *****
 
 The ``rsync`` command uploads a file (or directory, recursively) to all servers in a selection.
+
+.. note::
+
+   This command name will be altered in a future release to better express its function.
 
 The following AsciiCast demonstrates the usage of this command:
 
