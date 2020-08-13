@@ -9,7 +9,7 @@ tunnel
 
 The ``tunnel`` command forwards a remote port locally. 
 
-The following AsciiCast demonstrates how to access a remote elastic search process running on port 9200, by forwarding the connection to local port 9200.  In the example, the remote elastic search server is accessible via two intermdiate proxies, with Bcome handling all the SSH connectivity transparently.
+The following AsciiCast demonstrates how to access a remote elastic search process running on port 9200, by forwarding the connection to local port 9200.  In the example, the remote elastic search server is accessible via two intermediate proxies, with Bcome handling all the SSH connectivity transparently.
 
 
 .. raw:: html
