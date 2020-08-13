@@ -65,6 +65,7 @@
     built-in-commands/ping
     built-in-commands/rsync
     built-in-commands/pseudo-tty
+    built-in-commands/put-str
 
 .. toctree::
     :maxdepth: 1
