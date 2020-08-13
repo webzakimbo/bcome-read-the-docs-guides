@@ -69,6 +69,14 @@
     built-in-commands/get
 
 .. toctree::
+    :maxdepth: 0
+    :caption: The Registry
+    :hidden:
+
+    the-registry/shortcuts
+
+
+.. toctree::
     :maxdepth: 1
     :caption: Resources
 
