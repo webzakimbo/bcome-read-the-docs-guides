@@ -3,6 +3,11 @@
 .. meta::
    :description lang=en: The registry - configuring shortcuts
 
+TODO:
+  Spin up another webserver, so can demonstrate running the same shortcut against each individually, then both at the same time
+  something around service uptime would be cool.
+
+
 *********
 Shortcuts
 *********

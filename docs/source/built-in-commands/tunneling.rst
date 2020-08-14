@@ -14,13 +14,13 @@ The following AsciiCast demonstrates how to access a remote elastic search proce
 
 .. raw:: html
 
-   <a href="https://asciinema.org/a/0aB2LhU8gEA51FA75FnQ83DZ3" target="_blank"><img src="https://asciinema.org/a/0aB2LhU8gEA51FA75FnQ83DZ3.svg" /></a>
+   <a href="https://asciinema.org/a/F94gN1eVHYhsitYhDkdQHGxLW" target="_blank"><img src="https://asciinema.org/a/F94gN1eVHYhsitYhDkdQHGxLW.svg" /></a>
 
 .. note::
 
    To replay this Asciicast in your own terminal, install the ``asciinema`` package from https://asciinema.org/, and then enter the following in your terminal:
 
-   ``asciinema play https://asciinema.org/a/0aB2LhU8gEA51FA75FnQ83DZ3``
+   ``asciinema play https://asciinema.org/a/F94gN1eVHYhsitYhDkdQHGxLW``
 
 
 See the Bcome documentation for more information on |EXECUTING_COMMANDS_DOCS|_.
