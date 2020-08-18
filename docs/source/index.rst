@@ -67,7 +67,7 @@
     built-in-commands/pseudo-tty
     built-in-commands/put-str
     built-in-commands/get
-    build-in-commands/registry
+    built-in-commands/registry
 
 .. toctree::
     :maxdepth: 0
