@@ -47,7 +47,7 @@ Let's save our script as 'say_hello_server.rb' at the following location:
            └── say_hello_server.rb
 
 
-Now we'll add a registry.yml association for our script, associated with the 'production:wbzsite' namespace in our namespace tree:
+Now we'll add a registry.yml association for our script, associating it with the 'production:wbzsite' namespace in our namespace tree:
 
 .. code-block:: yaml
 
