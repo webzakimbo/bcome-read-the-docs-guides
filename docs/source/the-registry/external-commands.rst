@@ -59,7 +59,7 @@ Now we'll add a registry.yml association for our script, associating it with the
        group: salutations
        local_command: ruby scripts/say_hello_server.rb
 
-Now let's try out our script:
+Now let's try out our external registry hook:
 
 .. raw:: html
 
