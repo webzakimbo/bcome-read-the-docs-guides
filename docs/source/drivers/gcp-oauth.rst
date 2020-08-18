@@ -4,10 +4,10 @@
    :description lang=en: Configuring Bcome's GCP driver for OAuth authorisation
 
 *********
-GCP Oauth
+GCP OAuth
 *********
 
-This guide demonstrates a basic GCP driver setup: a single inventory namespace is populated with servers having been authorised via GCP Oauth (|GCP_OAUTH|_).
+This guide demonstrates a basic GCP driver setup: a single inventory namespace is populated with servers having been authorised via GCP OAuth (|GCP_OAUTH|_).
 
 For further configuration details, please refer to the |DOCS|_.
 
