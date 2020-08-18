@@ -14,6 +14,9 @@
 .. |EXTERNAL_DOCS| replace:: external hooks
 .. _EXTERNAL_DOCS: https://docs.bcome.com/en/2.0.0/registry/registry-examples.html
 
+.. |INTERNAL_DOCS| replace:: internal scripts
+.. _INTERNAL_DOCS: https://docs.bcome.com/en/2.0.0/orchestration/internal-ruby-scripting.html
+
 .. |INTERACTING_WITH_NODE| replace:: interacting with node
 .. _INTERACTING_WITH_NODE: https://docs.bcome.com/en/2.0.0/core-concepts/node.html
 
