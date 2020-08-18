@@ -22,6 +22,7 @@
     namespaces/multi-network-aws
     namespaces/multi-account-aws
     namespaces/alternative-views-with-conf 
+    namespaces/merging-clouds
  
 .. toctree::
     :maxdepth: 1
