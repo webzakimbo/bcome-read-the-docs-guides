@@ -33,7 +33,7 @@ The networks.yml file contains your network configuration, whilst 'your-secrets-
 
 .. warning::
 
-   Access tokens are saved to the .gauth direct, the contents of which *should not* be added to source control.
+   Access tokens are saved to the .gauth directory, the contents of which should not be added to source control.
 
 
 Network Configuration
