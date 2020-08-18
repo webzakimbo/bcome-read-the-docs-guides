@@ -11,6 +11,12 @@
 .. |SHORTCUTS_DOCS| replace:: shortcuts
 .. _SHORTCUTS_DOCS: https://docs.bcome.com/en/2.0.0/registry/registry-examples.html#shortcuts
 
+.. |EXTERNAL_DOCS| replace:: external hooks
+.. _EXTERNAL_DOCS: https://docs.bcome.com/en/2.0.0/registry/registry-examples.html
+
+.. |INTERACTING_WITH_NODE| replace:: interactive with node
+.. _INTERACTING_WITH_NODE: https://docs.bcome.com/en/2.0.0/core-concepts/node.html
+
 .. |NAMESPACE_ATTRIBUTES_DOCS| replace:: namespace attributes
 .. _NAMESPACE_ATTRIBUTES_DOCS: https://docs.bcome.com/en/2.0.0/network/network-configuration-attributes.html
 
