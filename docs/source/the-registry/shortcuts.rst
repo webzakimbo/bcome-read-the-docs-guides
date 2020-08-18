@@ -29,15 +29,7 @@ This guide will use the following Bcome namespace tree:
                         └───╸ server puppet
 
 
-In our registry.yml configuration file - 
-
-.. code-block:: bash
-
-   .
-   └── bcome
-       └── registry.yml
-
-- we'll associate two commands with the 'production:wbzsite' namespace (an inventory), and one with the xops:puppet namespace (a server), as follows:
+In our registry.yml configuration file we'll associate two commands with the 'production:wbzsite' namespace (an inventory), and one with the xops:puppet namespace (a server), as follows:
 
 .. code-block:: yaml
 
