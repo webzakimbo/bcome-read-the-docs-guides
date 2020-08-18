@@ -9,7 +9,7 @@ Merging Clouds
 
 Bcome lets you create namespaces across disparate clouds.  This example shows a simple merged AWS EC2 & GCP inventory, where application servers from both clouds are placed into one inventory.
 
-You may then interact with this inventory in the usual manner: via the console, from the terminal, or create custom orchestation scripts.
+You may interact with merged inventories in the usual manner: via the console, from the terminal, or from your custom orchestation scripts.
 
 The point of this guide is to demonstrate how simple this connectivity can be to set up.
 
