@@ -223,4 +223,3 @@ The previous example performs four lookups against EC2 (one per inventory). We m
          function:  "frontend-wbzsite"
 
 The above will result in the exact same namespace configuration.
-

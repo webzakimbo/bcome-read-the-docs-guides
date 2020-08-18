@@ -13,6 +13,11 @@ You may then interact with this inventory in the usual manner: via the console, 
 
 The point of this guide is to demonstrate how simple this connectivity can be to set up.
 
+.. note::
+
+   You may merge any inventories - irrespective of their origins.
+
+
 Network Configuration
 =====================
 
