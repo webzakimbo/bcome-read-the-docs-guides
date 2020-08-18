@@ -3,9 +3,9 @@
 .. meta::
    :description lang=en: The registry - configuring internal commands
 
-**************
-Internal hooks
-**************
+*************
+Internal hook
+*************
 
 Internal registry hooks associate |INTERNAL_DOCS|_ with your bcome namespaces - they allow for the execution of your internal scripts in the context of the Bcome namespace at which you call them.
 
