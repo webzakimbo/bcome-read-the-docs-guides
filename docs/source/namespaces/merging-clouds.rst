@@ -76,8 +76,6 @@ I then define an inventory of type ``inventory-merge`` which I name ``multicloud
        by_tag:
          function:  "frontend-wbzsite"
 
-   ## GCP--
-
    wbz:gcp:
      type: collection
      description: WBZ gcp estate
