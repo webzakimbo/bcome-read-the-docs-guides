@@ -37,7 +37,7 @@ Here's our script -
 
    There is a lot you can do with a ``@node`` object. See |INTERACTING_WITH_NODE|_.
 
-Let's save our scripts as say_hello_server.rb in the following location:
+Let's save our script as 'say_hello_server.rb' at the following location:
 
 .. code-block:: bash
 
