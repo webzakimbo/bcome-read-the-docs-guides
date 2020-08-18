@@ -9,7 +9,7 @@ External Hook
 
 An external-hook registry method allows for the invoking of an external script, which itself makes use of Bcome's runtime.
 
-This guides demonstrates the configuration of a simple external hook.
+This guide demonstrates the configuration of a simple external hook.
 
 Here's our script -
 
