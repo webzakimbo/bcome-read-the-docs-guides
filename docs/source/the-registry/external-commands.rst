@@ -7,7 +7,7 @@
 External Hook
 *************
 
-An external-hook registry method allows for the invoking of an external script, which itself makes use of Bcome's runtime.
+An external-hook registry method allows for invoking an external script, which itself makes use of Bcome's runtime.  The namespace context at which the external hook is called is passed to the script.
 
 This guide demonstrates the configuration of a simple external hook.
 
