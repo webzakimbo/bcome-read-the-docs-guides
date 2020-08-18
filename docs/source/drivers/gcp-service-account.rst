@@ -11,9 +11,6 @@ This guide demonstrates a basic GCP driver setup: a single inventory namespace i
 
 For further configuration details, please refer to the |DOCS|_.
 
-.. note::
-
-   You may also |GCP_OAUTH|_.
 
 Directory structure
 ===================
