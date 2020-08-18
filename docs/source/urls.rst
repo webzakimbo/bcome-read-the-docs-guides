@@ -17,6 +17,9 @@
 .. |STATIC_MANIFESTS_DOCS| replace:: static manifests
 .. _STATIC_MANIFESTS_DOCS: https://docs.bcome.com/en/2.0.0/network/static-manifests.html
 
+.. |REGISTRY_DOCS| replace:: registry configuration
+.. _REGISTRY_DOCS: https://docs.bcome.com/en/2.0.0/registry/overview.html
+
 .. |EXECUTING_COMMANDS_DOCS| replace:: executing commands
 .. _EXECUTING_COMMANDS_DOCS: https://docs.bcome.com/en/2.0.0/usage/executing-commands.html
 

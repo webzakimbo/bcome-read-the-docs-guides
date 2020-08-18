@@ -9,6 +9,10 @@ registry
 
 The ``registry`` command outputs a menu containing your custom registry tasks. You can invoke it at any namespace - in console or terminal mode - to view the registry commands configured for that namespace.
 
+.. note::
+
+   See our documentation site for |REGISTRY_DOCS|_.
+
 The following AsciiCast demonstrates the usage of this command within a Bcome installation containing multiple namespaces, with various registry commands configured within each.
 
 .. raw:: html

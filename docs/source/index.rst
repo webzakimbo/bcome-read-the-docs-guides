@@ -75,7 +75,8 @@
     :hidden:
 
     the-registry/shortcuts
-
+    the-registry/external-commands
+    the-registry/internal-commands
 
 .. toctree::
     :maxdepth: 1
