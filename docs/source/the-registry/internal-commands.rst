@@ -7,7 +7,7 @@
 Internal hook
 *************
 
-Internal registry hooks associate |INTERNAL_DOCS|_ with your bcome namespaces - they allow for the execution of your internal scripts in the context of the Bcome namespace at which you call them.
+Internal registry hooks associate |INTERNAL_DOCS|_ with your Bcome namespaces - they allow for the execution of your internal scripts in the context of the Bcome namespace at which you call them.
 
 This guide demonstrates the configuration of a simple Internal registry hook.
 
