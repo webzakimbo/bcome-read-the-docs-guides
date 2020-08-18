@@ -8,8 +8,8 @@
 .. |DOCS| replace:: documentation
 .. _DOCS: https://docs.bcome.com
 
-.. |SHORTCUT_DOCS| replace:: shortcuts
-.. _SHORTCUT_DOCS: https://docs.bcome.com/en/2.0.0/registry/registry-examples.html#shortcuts
+.. |SHORTCUTS_DOCS| replace:: shortcuts
+.. _SHORTCUTS_DOCS: https://docs.bcome.com/en/2.0.0/registry/registry-examples.html#shortcuts
 
 .. |NAMESPACE_ATTRIBUTES_DOCS| replace:: namespace attributes
 .. _NAMESPACE_ATTRIBUTES_DOCS: https://docs.bcome.com/en/2.0.0/network/network-configuration-attributes.html
