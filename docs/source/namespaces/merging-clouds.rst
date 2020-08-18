@@ -67,7 +67,6 @@ I then define an inventory of type ``inventory-merge`` which I name ``multicloud
        by_tag:
          division:  "xops"
          function: "bastion"
-     override_identifier: "[a-z]*_[a-z]*_(.+)"
 
    wbz:aws:wbzsite:
      type: inventory-subselect
@@ -76,7 +75,6 @@ I then define an inventory of type ``inventory-merge`` which I name ``multicloud
      filters:
        by_tag:
          function:  "frontend-wbzsite"
-     override_identifier: "[a-z]*_[a-z]*_wbzsite_(.+)"
 
    ## GCP--
 
@@ -103,7 +101,6 @@ I then define an inventory of type ``inventory-merge`` which I name ``multicloud
      hidden: true
      type: inventory
      description: All Production environment
-     override_identifier: "prod_net_(.+)"
 
 
    wbz:gcp:jump:
@@ -122,7 +119,6 @@ I then define an inventory of type ``inventory-merge`` which I name ``multicloud
      type: inventory-subselect
      subselect_from: gcp:all
      description: Frontend wbzsite
-     override_identifier: "wbzsite_(.+)"
      filters:
        by_label:
          group: application
