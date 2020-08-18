@@ -65,6 +65,9 @@
 .. |GCP_SERVICE_ACCOUNT_CREDS_HOW_TO| replace:: Creating and managing service account keys
 .. _GCP_SERVICE_ACCOUNT_CREDS_HOW_TO: https://cloud.google.com/iam/docs/creating-managing-service-account-keys
 
+.. |GCP_OAUTH| replace:: configure GCP using OAuth
+.. _GCP_OAUTH: https://docs.bcome.com/en/2.0.0/getting-started/prepare-gcp-access.html#oauth-2-0
+
 .. |GCP_COMPUTE_API| replace:: GCP Compute Engine API
 .. _GCP_COMPUTE_API: https://console.developers.google.com/apis/api/compute.googleapis.com/overview
 
