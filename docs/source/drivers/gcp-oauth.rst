@@ -1,13 +1,13 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Configuring Bcome's GCP driver for OAuth authorisation
+   :description lang=en: Configuring Bcome's GCP driver for OAuth 2.0 authorisation
 
-*********
-GCP OAuth
-*********
+*************
+GCP OAuth 2.0
+*************
 
-This guide demonstrates a basic GCP driver setup: a single inventory namespace is populated with servers having been authorised via GCP OAuth (|GCP_OAUTH|_).
+This guide demonstrates a basic GCP driver setup: a single inventory namespace is populated with servers having been authorised via GCP OAuth 2.0 (|GCP_OAUTH|_).
 
 For further configuration details, please refer to the |DOCS|_.
 
@@ -27,9 +27,9 @@ The networks.yml file contains your network configuration, whilst 'your-secrets-
 
 .. note::
 
-   Any user requiring use of your OAuth application will need the OAuth application secrets.  
+   Any user requiring use of your OAuth 2.0 application will need the OAuth 2.0 application secrets.  
 
-   Bcome will trigger an OAuth authentication process with first usage (or should the access tokens returned from the OAuth process have expired or been invalidated). 
+   Bcome will trigger an OAuth 2.0 authentication process with first usage (or should the access tokens returned from the OAuth 2.0 process have expired or been invalidated). 
 
 .. warning::
 

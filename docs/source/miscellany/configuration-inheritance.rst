@@ -14,7 +14,7 @@ Here we show a simple two-network GCP setup, where both inherit part of their ne
 Network Configuration
 ---------------------
 
-Below can be seen an example network.yml configuration.  The "gcp:prod: and "gcp:dev" namespaces both inherit elements of their network configuration from the parent "gcp" collection, then override that configuration with their own authentication scheme (a service account for one, OAuth for the other) and their own network filters.
+Below can be seen an example network.yml configuration.  The "gcp:prod: and "gcp:dev" namespaces both inherit elements of their network configuration from the parent "gcp" collection, then override that configuration with their own authentication scheme (a service account for one, OAuth 2.0 for the other) and their own network filters.
 
 .. code-block:: yaml
 
