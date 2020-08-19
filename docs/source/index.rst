@@ -40,7 +40,8 @@
     :caption: Miscellaneous
     :hidden:
 
-    namespaces/overriding-identifiers
+    miscellany/overriding-identifiers
+    miscellany/configuration-inheritance
 
 .. toctree::
     :maxdepth: 0

@@ -8,6 +8,9 @@
 .. |DOCS| replace:: documentation
 .. _DOCS: https://docs.bcome.com
 
+.. |INHERITANCE_DOCS| replace:: configuration inheritance
+.. _INHERITANCE_DOCS: https://docs.bcome.com/en/2.0.0/network/inheritance-and-overidding.html
+
 .. |SHORTCUTS_DOCS| replace:: shortcuts
 .. _SHORTCUTS_DOCS: https://docs.bcome.com/en/2.0.0/registry/registry-examples.html#shortcuts
 
