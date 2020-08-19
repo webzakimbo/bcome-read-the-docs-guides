@@ -1,14 +1,13 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Configurtion Inheritance
-
+   :description lang=en: Configuration Inheritance & Overrides
 
 *************************
 Configuration Inheritance
 *************************
 
-SSH and networking configuration is inherited by child namespaces at which point it may be overriden (see: |INHERITANCE_DOCS|_).
+SSH and networking configuration is inherited by child namespaces at which point it may be overridden (see: |INHERITANCE_DOCS|_).
 
 Here we show a simple two-network GCP setup, where both inherit part of their networking configuration from their parent namespace.
 
