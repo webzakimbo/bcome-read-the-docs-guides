@@ -1,4 +1,5 @@
 .. include:: urls.rst
+.. include:: intro.rst
 
 .. toctree::
     :maxdepth: 1
@@ -82,6 +83,7 @@
 .. toctree::
     :maxdepth: 0
     :caption: Resources
+    :hidden:
 
     About <https://bcome.com>
     Documentation <https://docs.bcome.com> 
