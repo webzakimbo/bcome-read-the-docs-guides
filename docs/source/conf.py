@@ -45,6 +45,8 @@ html_css_files = [
   'css/override-default.css'
 ]
 
+html_favicon = '_static/images/favicon.png'
+
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
