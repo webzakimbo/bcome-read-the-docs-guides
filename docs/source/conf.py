@@ -46,6 +46,7 @@ html_css_files = [
 ]
 
 html_favicon = '_static/images/favicon.png'
+html_logo = '_static/images/bcome-logo-docs.png'
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:

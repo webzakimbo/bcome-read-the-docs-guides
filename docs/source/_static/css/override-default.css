@@ -2,6 +2,89 @@
   Custom overrides of default 'readthedocs' sphinx styles
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 200;
+  color: #3E4E60;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #042C37;
+  font-family: 'Catamaran', sans-serif;
+}
+
+/* Release version, e.g. 'latest', or "1.1" etc */
+.wy-side-nav-search>div.version {
+  color:  #fcfcfc;
+  font-family: 'Catamaran', sans-serif;
+}
+
+/* Left-hand menu item captions */
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  color: #00A098;
+}
+
+/* Side bar header where logo & search sits */
+.wy-side-nav-search, .wy-nav-top {
+  background: #042C37;
+}
+
+/* Where it says "v: version" at the bottom */
+.rst-versions .rst-current-version {
+  color: #042C37;
+}
+
+/* Sidebar */
+.wy-nav-side {
+  background: #042C37;
+}
+
+/* The top-left hand side log itself */
+.wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
+  padding: 2px;
+  width: 200px;
+  height: auto;
+}
+
+/* Notes */
+div.admonition.note p.first {
+  background-color: rgba(22, 141, 205, 0.6); /* #168DCD , with opacity 0.6*/
+}
+
+.wy-alert.wy-alert-info .wy-alert-title, .rst-content .note {
+  background-color: rgba(99, 178, 221, 0.2); /* #63B2DD , with opacity 0.2*/
+}
+
+/* Warning */
+div.admonition.warning p.first {
+  background-color: rgba(248, 172, 6, 0.6); /* #F8AC06 , with opacity 0.6*/
+}
+
+.wy-alert.wy-alert-info .wy-alert-title, .rst-content .warning {
+  background-color: rgba(249, 195, 80, 0.2); /* #F9C350 , with opacity 0.2*/
+}
+
+/* hint */
+div.admonition.hint p.first {
+  background-color: rgba(0, 160, 152, 0.6); /* #00A098 , with opacity 0.6*/
+}
+
+.wy-alert.wy-alert-info .wy-alert-title, .rst-content .hint {
+  background-color: rgba(68, 182, 178, 0.2); /* #44B6B2 , with opacity 0.2*/
+}
+
+/* danger */
+div.admonition.danger p.first {
+  background: #E34526;
+}
+
+.wy-alert.wy-alert-info .wy-alert-title, .rst-content .danger {
+  background-color: rgba(187, 126, 137, 0.2); /* #BB7E89 , with opacity 0.2*/
+}
+
 /* Hide "On GitHub" section from versions menu */
 div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
     display: none;
