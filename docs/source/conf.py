@@ -14,7 +14,7 @@ copyright = u'2020 Webzakimbo Ltd.'
 author = u'Webzakimbo Ltd.'
 
 # The short X.Y version
-version = u''
+version = u'2.0'
 # The full version, including alpha/beta/rc tags
 release = u'2.0.0'
 
