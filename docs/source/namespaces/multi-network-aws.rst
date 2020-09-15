@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Setting up multiple environments for AWS.
+   :description lang=en: Setting up a multi-network AWS EC2 installation.
 
 *****************
 AWS Multi-Network

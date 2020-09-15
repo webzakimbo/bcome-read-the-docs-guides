@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Setting up multiple environments for GCP.
+   :description lang=en: Setting up a multi-network GCP installation. 
 
 *****************
 GCP Multi-Network

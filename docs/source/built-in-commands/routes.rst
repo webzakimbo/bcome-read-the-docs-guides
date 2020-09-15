@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - routes
+   :description lang=en: Built in commands: Using 'routes' to display your namespaces' configured SSH pathways.
 
 ******
 routes

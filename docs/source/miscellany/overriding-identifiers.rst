@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Overidding identifiers
+   :description lang=en: Overidding server identifiers
 
 
 **********************

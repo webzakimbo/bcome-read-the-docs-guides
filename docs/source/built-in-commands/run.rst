@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - run
+   :description lang=en: Built in commands: Using 'run' to execute a command on a server or groups of servers.
 
 ***
 run

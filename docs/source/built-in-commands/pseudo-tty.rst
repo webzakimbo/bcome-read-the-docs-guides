@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - pseudo-tty
+   :description lang=en: Built in commands: Execute a command requiring an interactive shell with the in-built 'pseudo_tty' command.
 
 **********
 pseudo_tty

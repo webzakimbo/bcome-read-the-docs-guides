@@ -1,8 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Setting up a simple single namespace
-
+   :description lang=en: Setting up a simple single namespace installation.
 
 ****************
 Single Namespace

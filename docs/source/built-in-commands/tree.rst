@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - tree
+   :description lang=en: Built in commands: Displaying a visualisation of your namespaces' tree hierarchy with the 'tree' command.
 
 ****
 tree

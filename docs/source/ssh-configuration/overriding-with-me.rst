@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Bcome's SSH configuration - Overriding configuration with ME= or me.yml
+   :description lang=en: Overriding SSH configuration with ME= or me.yml for bootstrapping or personalized ssh connection patterns.
 
 ****************************
 Overriding SSH Configuration

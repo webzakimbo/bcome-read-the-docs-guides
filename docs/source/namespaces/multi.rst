@@ -1,8 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Setting up a multi-namespace network
-
+   :description lang=en: Slice your installation into functional areas by creating a multi-namespace installation.
 
 ***************
 Multi-Namespace

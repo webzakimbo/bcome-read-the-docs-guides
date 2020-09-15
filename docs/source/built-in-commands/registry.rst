@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - registry
+   :description lang=en: Built in command: View your custom Registry methods using the 'registry' command.
 
 ********
 registry

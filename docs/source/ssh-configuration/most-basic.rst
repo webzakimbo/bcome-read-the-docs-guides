@@ -1,8 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Bcome's SSH configuration - simplest configuration
-
+   :description lang=en: The simplest Bcome SSH configuration.
 
 **************************
 Simplest SSH configuration

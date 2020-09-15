@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - ping
+   :description lang=en: Built in commands: Using 'ping' to test server(s) connectivity.
 
 ****
 ping

@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - tunnel
+   :description lang=en: Built in commands: Create an SSH tunnel connection - navigating any configured proxies - using the 'tunnel' command.
 
 ******
 tunnel

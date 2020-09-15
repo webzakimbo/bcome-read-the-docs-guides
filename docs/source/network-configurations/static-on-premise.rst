@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Configuring an on-premise inventory
+   :description lang=en: Configuring on-premise inventories.
 
 **********
 On-premise

@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - interactive
+   :description lang=en: Built in commands: Orchestrate multiple machines in real-time and at the same time with 'interactive' mode.
 
 ***********
 interactive

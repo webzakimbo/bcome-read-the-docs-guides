@@ -1,12 +1,11 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Bcome's SSH configuration - basic single hop proxying
+   :description lang=en: Configure a Bcome namespace for single-hop SSH proxing.
 
-
-**************
-Basic Proxying
-**************
+******************
+Basic SSH Proxying
+******************
 
 If you connect to your machines via an intermediary, then you will need to include a Proxy host in your SSH configuration.
 
@@ -14,7 +13,8 @@ If you connect to your machines via an intermediary, then you will need to inclu
 
    In all cases - whether SSH is invoked programmatically or otherwise - Bcome will defer to your local ssh-agent for your SSH keys.  
 
-   Make sure that your ssh-agent is running.
+   Make sure that your ssh-agent is running and that all keys in play have been added.
+
 
 Example configuration
 ---------------------

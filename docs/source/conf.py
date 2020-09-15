@@ -16,9 +16,16 @@ author = u'Webzakimbo Ltd.'
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
-release = u'2.0.0'
+release = u'latest'
 
-#html_logo = 'img/temp-logo.png'
+html_favicon = '_static/images/favicon.png'
+html_logo = '_static/images/bcome-logo-docs.png'
+
+html_context = {
+  'fqdn': "https://guides.bcome.com",
+  'image_path': "_static/images",
+  'open_graph_logo': "bcome-logo-docs-og.png"
+}
 
 # -- General configuration ---------------------------------------------------
 
@@ -44,9 +51,6 @@ templates_path = ['_templates']
 html_css_files = [
   'css/override-default.css'
 ]
-
-html_favicon = '_static/images/favicon.png'
-html_logo = '_static/images/bcome-logo-docs.png'
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:

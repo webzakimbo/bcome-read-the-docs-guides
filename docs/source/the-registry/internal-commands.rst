@@ -1,11 +1,11 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: The registry - configuring internal commands
+   :description lang=en: Configuring internal Registry methods - extending Bcome's runtime with embedded orchestration scripts.
 
-*************
-Internal hook
-*************
+****************
+Internal Methods
+****************
 
 Internal registry hooks associate |INTERNAL_DOCS|_ with your Bcome namespaces - they allow for the execution of your internal scripts in the context of the Bcome namespace at which you call them.
 

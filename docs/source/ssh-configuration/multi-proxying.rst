@@ -1,8 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Bcome's SSH configuration - Multi- proxying
-
+   :description lang=en: Configuring multi-hop SSH proxying within Bcome.
 
 **************
 Multi-proxying

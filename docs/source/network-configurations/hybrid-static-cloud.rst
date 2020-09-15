@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en: Configuring a hybrid static cloud
+   :description lang=en: Configuring a hybrid static cloud Bcome installation.
 
 *******************
 Hybrid Static Cloud

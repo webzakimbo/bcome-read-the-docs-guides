@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Configuration Inheritance & Overrides
+   :description lang=en: Bcome namespace configuration inheritance & overrides
 
 *************************
 Configuration Inheritance

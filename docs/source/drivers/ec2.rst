@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Configuring Bcome's EC2 driver
+   :description lang=en: Configuring Bcome's EC2 driver for AWS authorisation.
 
 ***
 EC2

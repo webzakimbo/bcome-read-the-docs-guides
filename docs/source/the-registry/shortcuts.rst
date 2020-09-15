@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: The registry - configuring shortcuts
+   :description lang=en: Configuring 'shortcut' Registry methods.
 
 *********
 Shortcuts

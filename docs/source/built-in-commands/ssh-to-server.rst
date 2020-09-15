@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - ssh
+   :description lang=en: Built in commands: Initiate an SSH terminal session directly using the 'ssh' command.
 
 ***
 ssh

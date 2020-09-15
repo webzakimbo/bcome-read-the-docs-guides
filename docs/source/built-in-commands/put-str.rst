@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - put_str
+   :description lang=en: Built in commands: Using 'put_str' to copy an in-memory string to a remote file.
 
 *******
 put_str

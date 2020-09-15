@@ -1,0 +1,13 @@
+{% extends "!layout.html" %}
+{% block extrahead %}
+
+  <!-- general FB -->
+  <meta property="og:image" content="{{ fqdn }}/{{ language }}/{{ release }}/{{ image_path }}/{{ open_graph_logo }}"/>
+  <meta property="og:site_name" content="Bcome Guides {{ release }}"/>
+  <meta property="og:title" content="{{ title }}"/>
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:image" content="{{ fqdn }}/{{ language }}/{{ release }}/{{ image_path }}/{{ open_graph_logo }}"/>
+{% endblock %}

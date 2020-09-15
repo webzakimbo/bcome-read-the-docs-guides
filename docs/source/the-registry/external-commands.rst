@@ -1,11 +1,11 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: The registry - configuring external commands
+   :description lang=en: Configuring external Registry methods - extending Bcome with standalone scripts that inherit your installation's configuration.
 
-*************
-External Hook
-*************
+****************
+External methods
+****************
 
 An external-hook registry method allows for invoking an external script, which itself makes use of Bcome's runtime.  The namespace context at which the external hook is called is passed to the script.
 

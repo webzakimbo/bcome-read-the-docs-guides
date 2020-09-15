@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - get
+   :description lang=en: Built in commands: Using 'get' to download remote files.
 
 ***
 get

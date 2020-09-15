@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en: Configuring Bcome for multi-hybrid-cloud
+   :description lang=en: Configuring a multi-hybrid-cloud Bcome installation.
 
 ******************
 Multi-hybrid-cloud

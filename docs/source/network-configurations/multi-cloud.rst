@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Configuring Bcome for multi-cloud
+   :description lang=en: Configuring a multi-cloud Bcome installation.
 
 ***********
 Multi-cloud

@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Merging clouds
+   :description lang=en: Manage & orchestrate machines from different clouds at the same time by creating 'merged' namespaces.
 
 **************
 Merging Clouds

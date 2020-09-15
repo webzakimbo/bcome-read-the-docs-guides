@@ -1,7 +1,7 @@
 .. include:: ../urls.rst
 
 .. meta::
-   :description lang=en: Built in commands - rsync
+   :description lang=en: Built in commands: Upload files or directories (recursively) to all servers in a selection using the 'rsync' command.
 
 *****
 rsync
@@ -11,7 +11,7 @@ The ``rsync`` command uploads a file (or directory, recursively) to all servers 
 
 .. note::
 
-   This command name will be altered in a future release to better express its function.
+   This command name will be altered in a future release to better express its singular function.
 
 The following AsciiCast demonstrates the usage of this command:
 
