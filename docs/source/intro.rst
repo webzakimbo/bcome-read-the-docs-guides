@@ -7,6 +7,6 @@ Bcome Guides
 
 Welcome to the Bcome Guides. 
 
-Here you will find quick-fire examples of the core functionality & configuration options within the Bcome DevOps Console.
+Here you will find quick-fire examples of the core functionality & configuration options within the Bcome.
 
-For full documentation to produce your own application, please see the |DOCS|_.
+For full documentation to produce your own Control Panel application, please see the |DOCS|_.
