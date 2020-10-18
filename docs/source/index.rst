@@ -86,7 +86,7 @@
     :hidden:
 
     About <https://bcome.com>
-    Documentation <https://docs.bcome.com/en/latest> 
+    Documentation <https://docs.bcome.com/en/2.0.0> 
     Source Code <https://github.com/webzakimbo/bcome>
     Ruby Gem <https://rubygems.org/gems/bcome>
     Ruby Doc <https://www.rubydoc.info/gems/bcome/2.0.0>
