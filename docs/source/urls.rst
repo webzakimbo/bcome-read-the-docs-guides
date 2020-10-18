@@ -60,7 +60,7 @@
 .. _GCP_AUTH_DOCS: https://docs.bcome.com/en/2.0.0/getting-started/prepare-gcp-access.html
 
 .. |BCOME_SOURCE| replace:: github source
-.. _BCOME_SOURCE: https://github.com/webzakimbo/bcome-kontrol
+.. _BCOME_SOURCE: https://github.com/webzakimbo/bcome
 
 .. |GCP_CONSOLE| replace:: GCP web console
 .. _GCP_CONSOLE: https://console.cloud.google.com/
